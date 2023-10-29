@@ -362,9 +362,12 @@ const ProductDefaultPage = () => {
                 <div className="tab-content" id="nav-tabContent">
                   <div className="tab-pane fade show active" id="nav-description" role="tabpanel" aria-labelledby="nav-description-tab">
                     <div className="addithonal-information">
-                      <div
-                        dangerouslySetInnerHTML={{ __html: selectesdata['Body (HTML)'] }}
-                      />
+                      {selectesdata ? (
+                        <div dangerouslySetInnerHTML={{ __html: selectesdata['Body (HTML)'] }} />
+                      ) : (
+                        null
+                      )}
+
                     </div>
                   </div>
                   <div className="tab-pane fade" id="nav-reviews" role="tabpanel" aria-labelledby="nav-reviews-tab">

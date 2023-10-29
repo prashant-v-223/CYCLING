@@ -41,7 +41,10 @@ const BestSellingProduct = () => {
                 return (
                   <div className="col-lg-4 col-md-6" key={i}>
                     <div className="product-card hover-btn">
-                      <div className="product-card-img double-img">
+                      <div className="product-card-img double-img"
+                        onClick={() => {
+                          localStorage.setItem("selectesdata", JSON.stringify(e))
+                        }}>
                         <Link legacyBehavior href="/shop/product-default">
                           <a>
                             <img src={e.ImageSrc} alt="" className="img1" />

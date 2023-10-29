@@ -3508,7 +3508,7 @@ header.style-2 .nav-right::after {
   font-size: 55px;
   line-height: 1;
   text-transform: uppercase;
-  color: var(--text-color);
+  color: #eb6767;
   margin-bottom: 10px;
 }
 
@@ -3531,8 +3531,8 @@ header.style-2 .nav-right::after {
   line-height: 1;
   letter-spacing: 0.02em;
   text-transform: uppercase;
-  -webkit-text-stroke: 1px #353535;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px #00ceff !important;
+  -webkit-text-fill-color: #5f1111;
 }
 
 .choose-product-section .choose-product-card .choose-product-card-content .second-text.style-2 {
@@ -7262,9 +7262,7 @@ header.style-2 .nav-right::after {
   letter-spacing: 0.54px;
 }
 
-.footer-section.style-2 {
-  background-image: url(../img/home2/footer-bg.png);
-}
+.footer-section.style-2 {}
 
 .footer-section.style-2 .footer-top .pr-25 {
   padding-right: 25px;
@@ -12952,7 +12950,6 @@ home2 Banner Css
 
 .banner-2-section .banner-2-right .banner-2-right-img-bg .banner-2-right-content h1 strong,
 .banner-2-section .banner-2-right .banner-2-right-img-bg .banner-2-right-content h2 strong {
-  background-image: url(../img/home2/banner2-price-bg.png);
   color: var(--white-color);
   font-size: 45px;
   font-weight: 700;
@@ -15277,13 +15274,33 @@ Testimonial-Section Css
 /*# sourceMappingURL=style.css.map */
 .dddd .active {
   border: 1px solid #000;
+  border-radius: 12px;
 }
 
 .available-method {
   padding: 8px 12px;
 }
+
 .product-price-list {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.coming {
+  background: red;
+  border-radius: 7px;
+  font-size: 8.5px !important;
+  font-size: 12px;
+  padding: 5px;
+  position: absolute;
+  top: -3px;
+  right: 1%;
+  color: #fff;
+}
+
+.unaviablee {
+  display: flex;
+  justify-content: center;
   align-items: center;
 }

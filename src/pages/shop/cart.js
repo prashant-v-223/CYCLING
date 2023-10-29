@@ -57,7 +57,9 @@ const Cart = () => {
                         </td>
                         <td data-label="Product" className="table-product">
                           <div className="product-img">
-                            <img src={e.ImageSrc} alt="" className='img-fluid' width={100} />
+                            <img src={e.ImageSrc} alt="" className='img-fluid' width={100} style={{
+                              objectFit: "cover"
+                            }} />
                           </div>
                           <div className="product-content">
                             <h6><a href="#">{e.Title} </a></h6>

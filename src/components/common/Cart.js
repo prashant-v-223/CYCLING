@@ -188,13 +188,13 @@ const Cart = () => {
               </li>
               <li>
                 <span>Total ( tax excl.)</span>
-                <span>₹ {cartTotalPrice > 75 ? cartTotalPrice - 75 : cartTotalPrice}</span>
+                <span>₹ {cartTotalPrice > 75 ? cartTotalPrice + 75 : cartTotalPrice}</span>
               </li>
             </ul>
             <ul className="total">
               <li>
                 <span>Total</span>
-                <span>₹ {cartTotalPrice > 75 ? cartTotalPrice - 75 : cartTotalPrice}</span>
+                <span>₹ {cartTotalPrice > 75 ? cartTotalPrice + 75 : cartTotalPrice}</span>
               </li>
             </ul>
           </div>

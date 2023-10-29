@@ -16,11 +16,7 @@ const Topbar = () => {
               </p>
             </div>
             <div className="company-logo">
-              <Link legacyBehavior href="/">
-                <a>
-                  <img src="/assets/img/logo.svg" alt="" />
-                </a>
-              </Link>
+              <Link legacyBehavior href="/"><a><img src="/assets/img/Zidkart logo.png" width={75} alt="" /></a></Link>
             </div>
             <div className="search-area">
               <form>

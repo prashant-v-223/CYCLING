@@ -53,7 +53,7 @@ const checkout = () => {
                         onClick={() => handleTabClick(2)}
                     >
                         <label className="form-check-label" style={{
-                            width: "58%", display: 'flex', alignContent: "center"
+                            width: "60%", display: 'flex', alignContent: "center"
                         }}>
                             <img
                                 src="https://play-lh.googleusercontent.com/0dn-CnZkqyLm5PpjdHBrYR9hvnGDNgoLTe8yfrSaPWUx7ZBVGI4C_18-jL06oNCRRCK3=w240-h480-rw"
@@ -71,7 +71,9 @@ const checkout = () => {
                         pay-type="phonepe"
                         onClick={() => handleTabClick(3)}
                     >
-                        <label className="form-check-label">
+                        <label className="form-check-label" style={{
+                            width: "60%", display: 'flex', alignContent: "center"
+                        }}>
                             <img
                                 src="https://scontent.famd1-2.fna.fbcdn.net/v/t1.6435-9/43447413_1987166791348029_9209894455249731584_n.png?_nc_cat=105&ccb=1-7&_nc_sid=7a1959&_nc_ohc=pVsV_ZA6w8MAX-T1A9K&_nc_ht=scontent.famd1-2.fna&oh=00_AfBzH7jP4xPd7bJwz4ExLjev4f3ry61y48zoTKyh92yXOw&oe=6565B504"
                                 className="pay-logo "
@@ -85,7 +87,9 @@ const checkout = () => {
                     <div id="divpaytm"
                         className={`form-check available-method ${activeTab === 4 && "active"}`} pay-type="paytm"
                         onClick={() => handleTabClick(4)}>
-                        <label className="form-check-label">
+                        <label className="form-check-label" style={{
+                            width: "60%", display: 'flex', alignContent: "center"
+                        }}>
                             <img
                                 src="https://www.logo.wine/a/logo/Paytm/Paytm-Logo.wine.svg"
                                 className="pay-logo "
@@ -102,7 +106,9 @@ const checkout = () => {
                         pay-type="bhim_upi"
                         onClick={() => handleTabClick(1)}
                     >
-                        <label className="form-check-label">
+                        <label className="form-check-label" style={{
+                            width: "60%", display: 'flex', alignContent: "center"
+                        }}>
                             <img
                                 src="https://presentations.gov.in/presgov_new/wp-content/uploads/2020/06/BHIM_Preview.png?x42937"
                                 className="pay-logo "
@@ -118,7 +124,9 @@ const checkout = () => {
                         className={`form-check available-method ${activeTab === 5 && "active"}`}
                         pay-type="whatspp_pay" onClick={() => handleTabClick(5)}
                     >
-                        <label className="form-check-label">
+                        <label className="form-check-label" style={{
+                            width: "60%", display: 'flex', alignContent: "center"
+                        }}>
                             <img
                                 src="https://i.pinimg.com/564x/ea/c1/cc/eac1ccdc2b29b06ad9f6477862db2282.jpg"
                                 className="pay-logo "
@@ -140,7 +148,7 @@ const checkout = () => {
                     </div>
                     <div className="product-price-list my-3">
                         <span className="title">Discount</span>
-                        <span className="data discount-amt text-success">-₹ {Number(cartTotalPrice - cancelcartTotalPrice) || 0}</span>
+                        <span className="data discount-amt text-success">₹ {Number(cartTotalPrice - cancelcartTotalPrice) || 0}</span>
                     </div>
                     <div className="product-price-list my-3">
                         <span className="title">Delivery Charges</span>
@@ -322,7 +330,7 @@ const checkout = () => {
                     </div>
                     <a
                         href={payment.trim()}
-                        className="buynow-button product-page-buy col-6 btn-continue text-center"
+                        className="buynow-button product-page-buy col-6 btn-continue text-center btn btn-dark"
                     >
                         Continue
                     </a>

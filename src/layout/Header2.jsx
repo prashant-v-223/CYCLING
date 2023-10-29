@@ -73,15 +73,15 @@ const Header2 = () => {
      <header ref={headerRef} className={`header-area style-2 ${state.scrollY > 10 ?"sticky":""}`}>
         <div className="container-md position-relative  d-flex flex-nowrap align-items-center justify-content-between">
             <div className="header-logo d-lg-none d-flex">
-            <Link legacyBehavior href="/"><a><img alt="image" className="img-fluid" src="/assets/img/logo.svg" /></a></Link>
+            <Link legacyBehavior href="/"><a><img alt="image" className="img-fluid" src="/assets/img/Zidkart logo.png"  width={100} /></a></Link>
             </div>
             <div className="company-logo d-lg-flex d-none">
-            <Link legacyBehavior href="/"><a><img src="/assets/img/logo.svg" alt="" /></a></Link>
+            <Link legacyBehavior href="/"><a><img src="/assets/img/Zidkart logo.png"  width={100} alt="" /></a></Link>
             </div>
             <div className={`main-menu ${state.isSidebarOpen ? "show-menu" : ""}`}>
             <div className="mobile-logo-area d-lg-none d-flex justify-content-between align-items-center">
             <div className="mobile-logo-wrap">
-                <Link legacyBehavior href="/"><a><img alt="image" src="/assets/img/logo.svg" /></a></Link>
+                <Link legacyBehavior href="/"><a><img alt="image" src="/assets/img/Zidkart logo.png"  width={100} /></a></Link>
             </div>
             </div>
             <ul className="menu-list">

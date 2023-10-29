@@ -72,7 +72,7 @@ const Header = () => {
         <header ref={headerRef} className={`header-area ${state.scrollY > 10 ? "sticky" : ""}`}>
             <div className="container-xxl container-fluid position-relative  d-flex flex-nowrap align-items-center justify-content-between">
                 <div className="header-logo d-lg-none d-flex">
-                    <Link legacyBehavior href="/"><a><img alt="image" className="img-fluid" src="/assets/img/logo.svg" /></a></Link>
+                    <Link legacyBehavior href="/"><a><img alt="image" className="img-fluid" src="/assets/img/Zidkart logo.png" width={100} /></a></Link>
                 </div>
                 <div className="category-dropdown">
                     <div className="category-button" onClick={() => toggleMenu("categoryModal")}>
@@ -83,7 +83,7 @@ const Header = () => {
                 <div className={`main-menu ${state.isSidebarOpen ? "show-menu" : ""}`}>
                     <div className="mobile-logo-area d-lg-none d-flex justify-content-between align-items-center">
                         <div className="mobile-logo-wrap">
-                            <Link legacyBehavior href="/"><a><img alt="image" src="/assets/img/logo.svg" /></a></Link>
+                            <Link legacyBehavior href="/"><a><img alt="image" src="/assets/img/Zidkart logo.png" width={100} /></a></Link>
                         </div>
                     </div>
                     <ul className="menu-list">
@@ -91,9 +91,11 @@ const Header = () => {
                             <a href="#" className="drop-down">Cycling</a>
                         </li>
                         <li className="menu-item-has-children">
+                            <span className="coming">cooming soon</span>
                             <a href="#" className="drop-down">Clothing</a>
                         </li>
                         <li className="menu-item-has-children">
+                            <span className="coming">cooming soon</span>
                             <a href="#" className="drop-down">Hand bag</a>
                         </li>
                     </ul>

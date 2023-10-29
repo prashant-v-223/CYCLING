@@ -42,7 +42,7 @@ const Cart = () => {
                     </tr>
                   </thead>
                   <tbody>
-                    {data.length > 0 ? data.map((e, i) => {
+                    {data?.length > 0 ? data.map((e, i) => {
                       return <tr>
                         <td>
                           <div className="delete-icon" onClick={() => {

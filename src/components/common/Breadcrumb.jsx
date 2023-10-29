@@ -9,7 +9,7 @@ const Breadcrumb = () => {
   const currentRoute = currentPath.split("/").filter(Boolean);
 
   // Check if there are segments in the currentRoute
-  const hasRoute = currentRoute.length > 0;
+  const hasRoute = currentRoute?.length > 0;
 
   return (
     <div className="breadcrumb-section">
@@ -26,10 +26,10 @@ const Breadcrumb = () => {
                 <li
                   key={index}
                   className={`breadcrumb-item ${
-                    index === currentRoute.length - 1 ? "active" : ""
+                    index === currentRoute?.length - 1 ? "active" : ""
                   }`}
                 >
-                  {index === currentRoute.length - 1 ? (
+                  {index === currentRoute?.length - 1 ? (
                     <span>{route}</span>
                   ) : (
                     <Link

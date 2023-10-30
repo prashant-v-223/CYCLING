@@ -318,34 +318,36 @@ const BestSellingProduct = () => {
                           </ul>
                         </div>
                       </div>
-                      <div className="shop-details-btn">
+                      <div
+                        className="shop-details-btn" data-bs-dismiss="modal"
+                        onClick={() => {
+                          let olddata = JSON.parse(
+                            localStorage.getItem("carditams")
+                          )
+                            ? JSON.parse(localStorage.getItem("carditams"))
+                            : [];
+                          let dataaxist = JSON.parse(
+                            localStorage.getItem("carditams")
+                          )?.find((item) => {
+                            return item?.Title === selectesdata?.Title;
+                          });
+                          let data = {
+                            ...selectesdata,
+                            Qty: quantity,
+                          };
+                          if (!dataaxist) {
+                            localStorage.setItem(
+                              "carditams",
+                              JSON.stringify([...olddata, data])
+                            );
+                          }
+                        }}
+                      >
                         <Link
                           legacyBehavior
                           href="/checkout"
                           data-bs-toggle="modal"
                           data-bs-target="#product-view"
-                          onClick={() => {
-                            let olddata = JSON.parse(
-                              localStorage.getItem("carditams")
-                            )
-                              ? JSON.parse(localStorage.getItem("carditams"))
-                              : [];
-                            let dataaxist = JSON.parse(
-                              localStorage.getItem("carditams")
-                            )?.find((item) => {
-                              return item?.Title === e?.Title;
-                            });
-                            let data = {
-                              ...selectesdata,
-                              Qty: quantity,
-                            };
-                            if (!dataaxist) {
-                              localStorage.setItem(
-                                "carditams",
-                                JSON.stringify([...olddata, data])
-                              );
-                            }
-                          }}
                         >
                           <a className="primary-btn1 hover-btn3">*Buy Now*</a>
                         </Link>
@@ -354,28 +356,6 @@ const BestSellingProduct = () => {
                           href="/shop/cart"
                           data-bs-toggle="modal"
                           data-bs-target="#product-view"
-                          onClick={() => {
-                            let olddata = JSON.parse(
-                              localStorage.getItem("carditams")
-                            )
-                              ? JSON.parse(localStorage.getItem("carditams"))
-                              : [];
-                            let dataaxist = JSON.parse(
-                              localStorage.getItem("carditams")
-                            )?.find((item) => {
-                              return item?.Title === e?.Title;
-                            });
-                            let data = {
-                              ...selectesdata,
-                              Qty: quantity,
-                            };
-                            if (!dataaxist) {
-                              localStorage.setItem(
-                                "carditams",
-                                JSON.stringify([...olddata, data])
-                              );
-                            }
-                          }}
                         >
                           <a className="primary-btn1 hover-btn3">
                             *Add to Cart*

@@ -239,9 +239,49 @@ const NewestProduct = () => {
                           </ul>
                         </div>
                       </div>
-                      <div className="shop-details-btn">
-                        <Link legacyBehavior href="/shop"><a className="primary-btn1 hover-btn3">*Buy Now*</a></Link>
-                        <a href="#" className="primary-btn1 style-3 hover-btn4">*Add to Cart*</a>
+                      <div
+                        className="shop-details-btn" data-bs-dismiss="modal"
+                        onClick={() => {
+                          let olddata = JSON.parse(
+                            localStorage.getItem("carditams")
+                          )
+                            ? JSON.parse(localStorage.getItem("carditams"))
+                            : [];
+                          let dataaxist = JSON.parse(
+                            localStorage.getItem("carditams")
+                          )?.find((item) => {
+                            return item?.Title === selectesdata?.Title;
+                          });
+                          let data = {
+                            ...selectesdata,
+                            Qty: quantity,
+                          };
+                          if (!dataaxist) {
+                            localStorage.setItem(
+                              "carditams",
+                              JSON.stringify([...olddata, data])
+                            );
+                          }
+                        }}
+                      >
+                        <Link
+                          legacyBehavior
+                          href="/checkout"
+                          data-bs-toggle="modal"
+                          data-bs-target="#product-view"
+                        >
+                          <a className="primary-btn1 hover-btn3">*Buy Now*</a>
+                        </Link>
+                        <Link
+                          legacyBehavior
+                          href="/shop/cart"
+                          data-bs-toggle="modal"
+                          data-bs-target="#product-view"
+                        >
+                          <a className="primary-btn1 hover-btn3">
+                            *Add to Cart*
+                          </a>
+                        </Link>
                       </div>
                       <div
                         dangerouslySetInnerHTML={{ __html: selectesdata['Body (HTML)'] }}

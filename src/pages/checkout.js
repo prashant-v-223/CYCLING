@@ -57,7 +57,7 @@ const checkout = () => {
        default:
            break;
    }
-}, [activeTab]);
+}, [activeTab,cancelcartTotalPrice]);
   const handleOpenUpi = () => {};
   const handleTabClick = (tabNumber) => {
     setActiveTab(tabNumber);

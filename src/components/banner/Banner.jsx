@@ -135,7 +135,7 @@ const Banner = () => {
                   <div className="banner-footer-content">
                     <h5>Free Delivery</h5>
                     <p>
-                      Free product delivary after $500 and get descount over the
+                      Free product delivary after ₹500 and get descount over the
                       produce.
                     </p>
                   </div>

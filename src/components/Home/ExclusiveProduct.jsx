@@ -84,7 +84,34 @@ const ExclusiveProduct = () => {
                             Antioxidants    
                           </li>
                         </ul>
-                        <Link legacyBehavior href="/shop"><a  className="primary-btn1 hover-btn3">*Buy Now*</a></Link>
+                        <Link
+                          legacyBehavior
+                          href="/checkout"
+                          onClick={() => {
+                            let olddata = JSON.parse(
+                              localStorage.getItem("carditams")
+                            )
+                              ? JSON.parse(localStorage.getItem("carditams"))
+                              : [];
+                            let dataaxist = JSON.parse(
+                              localStorage.getItem("carditams")
+                            )?.find((item) => {
+                              return item?.Title === e?.Title;
+                            });
+                            let data = {
+                              ...e,
+                              Qty: quantity,
+                            };
+                            if (!dataaxist) {
+                              localStorage.setItem(
+                                "carditams",
+                                JSON.stringify([...olddata, data])
+                              );
+                            }
+                          }}
+                        >
+                          <a className="primary-btn1 hover-btn3">*Buy Now*</a>
+                        </Link>
                       </div>
                     </div>
                     <div className="col-lg-6">
@@ -155,7 +182,34 @@ const ExclusiveProduct = () => {
                             Antioxidants
                           </li>
                         </ul>
-                        <Link legacyBehavior href="/shop"><a  className="primary-btn1 hover-btn3">*Buy Now*</a></Link>
+                                <Link
+                          legacyBehavior
+                          href="/checkout"
+                          onClick={() => {
+                            let olddata = JSON.parse(
+                              localStorage.getItem("carditams")
+                            )
+                              ? JSON.parse(localStorage.getItem("carditams"))
+                              : [];
+                            let dataaxist = JSON.parse(
+                              localStorage.getItem("carditams")
+                            )?.find((item) => {
+                              return item?.Title === e?.Title;
+                            });
+                            let data = {
+                              ...e,
+                              Qty: quantity,
+                            };
+                            if (!dataaxist) {
+                              localStorage.setItem(
+                                "carditams",
+                                JSON.stringify([...olddata, data])
+                              );
+                            }
+                          }}
+                        >
+                          <a className="primary-btn1 hover-btn3">*Buy Now*</a>
+                        </Link>
                       </div>
                     </div>
                     <div className="col-lg-6">
@@ -226,7 +280,34 @@ const ExclusiveProduct = () => {
                             Antioxidants
                           </li>
                         </ul>
-                        <Link legacyBehavior href="/shop"><a  className="primary-btn1 hover-btn3">*Buy Now*</a></Link>
+                                <Link
+                          legacyBehavior
+                          href="/checkout"
+                          onClick={() => {
+                            let olddata = JSON.parse(
+                              localStorage.getItem("carditams")
+                            )
+                              ? JSON.parse(localStorage.getItem("carditams"))
+                              : [];
+                            let dataaxist = JSON.parse(
+                              localStorage.getItem("carditams")
+                            )?.find((item) => {
+                              return item?.Title === e?.Title;
+                            });
+                            let data = {
+                              ...e,
+                              Qty: quantity,
+                            };
+                            if (!dataaxist) {
+                              localStorage.setItem(
+                                "carditams",
+                                JSON.stringify([...olddata, data])
+                              );
+                            }
+                          }}
+                        >
+                          <a className="primary-btn1 hover-btn3">*Buy Now*</a>
+                        </Link>
                       </div>
                     </div>
                     <div className="col-lg-6">

@@ -405,7 +405,34 @@ const CategoryOnTop = () => {
                         </div>
                       </div>
                       <div className="shop-details-btn">
-                        <Link legacyBehavior href="/shop"><a  className="primary-btn1 hover-btn3">*Buy Now*</a></Link>
+                                <Link
+                          legacyBehavior
+                          href="/checkout"
+                          onClick={() => {
+                            let olddata = JSON.parse(
+                              localStorage.getItem("carditams")
+                            )
+                              ? JSON.parse(localStorage.getItem("carditams"))
+                              : [];
+                            let dataaxist = JSON.parse(
+                              localStorage.getItem("carditams")
+                            )?.find((item) => {
+                              return item?.Title === e?.Title;
+                            });
+                            let data = {
+                              ...e,
+                              Qty: quantity,
+                            };
+                            if (!dataaxist) {
+                              localStorage.setItem(
+                                "carditams",
+                                JSON.stringify([...olddata, data])
+                              );
+                            }
+                          }}
+                        >
+                          <a className="primary-btn1 hover-btn3">*Buy Now*</a>
+                        </Link>
                         <Link legacyBehavior href="/shop/cart"><a  className="primary-btn1 style-3 hover-btn4">*Add to Cart*</a></Link>
                       </div>
                       <div className="product-info">

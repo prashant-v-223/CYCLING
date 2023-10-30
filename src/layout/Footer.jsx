@@ -89,7 +89,7 @@ const Footer = () => {
             <div className="row">
                 <div className="col-lg-12 d-flex flex-md-row flex-column align-items-center justify-content-md-between justify-content-center flex-wrap gap-3">
                 <div className="footer-left">
-                    <p>©Copyright 2023 Beautico | Design By <a href="https://www.egenslab.com/">Egens Lab</a></p>
+                    <p>©Copyright 2023 zidkart | Design By <a href="https://www.egenslab.com/">Egens Lab</a></p>
                 </div>
                 <div className="footer-logo">
                     <Link legacyBehavior href="/"><a><img src="/assets/img/logo.svg" alt="" /></a></Link>
@@ -106,7 +106,7 @@ const Footer = () => {
                     </div>
                     <div className="content">
                     <p>For Inquiry</p>
-                    <h6><a href="tel:29658718617">2-965-871-8617</a></h6>
+                    <h6><a href="tel:29658718617">1800 1200 1111</a></h6>
                     </div>
                 </div>
                 </div>

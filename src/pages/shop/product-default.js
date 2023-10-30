@@ -133,61 +133,35 @@ const ProductDefaultPage = () => {
                           </ul>
                         </div>
                       </div>
-                      <div className="shop-details-btn">
-                        <Link
-                          legacyBehavior
-                          href="/checkout"
-                          onClick={() => {
-                            let olddata = JSON.parse(
-                              localStorage.getItem("carditams")
-                            )
-                              ? JSON.parse(localStorage.getItem("carditams"))
-                              : [];
-                            let dataaxist = JSON.parse(
-                              localStorage.getItem("carditams")
-                            )?.find((item) => {
-                              return item?.Title === e?.Title;
-                            });
-                            let data = {
-                              ...e,
-                              Qty: quantity,
-                            };
-                            if (!dataaxist) {
-                              localStorage.setItem(
-                                "carditams",
-                                JSON.stringify([...olddata, data])
-                              );
-                            }
-                          }}
-                        >
+                      <div
+                        className="shop-details-btn"
+                        onClick={() => {
+                          let olddata = JSON.parse(
+                            localStorage.getItem("carditams")
+                          )
+                            ? JSON.parse(localStorage.getItem("carditams"))
+                            : [];
+                          let dataaxist = JSON.parse(
+                            localStorage.getItem("carditams")
+                          )?.find((item) => {
+                            return item?.Title === selectesdata?.Title;
+                          });
+                          let data = {
+                            ...selectesdata,
+                            Qty: quantity,
+                          };
+                          if (!dataaxist) {
+                            localStorage.setItem(
+                              "carditams",
+                              JSON.stringify([...olddata, data])
+                            );
+                          }
+                        }}
+                      >
+                        <Link legacyBehavior href="/checkout">
                           <a className="primary-btn1 hover-btn3">*Buy Now*</a>
                         </Link>
-                        <Link
-                          legacyBehavior
-                          href="/shop/cart"
-                          onClick={() => {
-                            let olddata = JSON.parse(
-                              localStorage.getItem("carditams")
-                            )
-                              ? JSON.parse(localStorage.getItem("carditams"))
-                              : [];
-                            let dataaxist = JSON.parse(
-                              localStorage.getItem("carditams")
-                            )?.find((item) => {
-                              return item?.Title === e?.Title;
-                            });
-                            let data = {
-                              ...e,
-                              Qty: quantity,
-                            };
-                            if (!dataaxist) {
-                              localStorage.setItem(
-                                "carditams",
-                                JSON.stringify([...olddata, data])
-                              );
-                            }
-                          }}
-                        >
+                        <Link legacyBehavior href="/shop/cart">
                           <a className="primary-btn1 hover-btn3">
                             *Add to Cart*
                           </a>

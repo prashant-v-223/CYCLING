@@ -22,8 +22,6 @@ const ChooseProduct = () => {
                 </a>
               </Link>
               <div className="choose-product-card-content">
-                <h2 className="first-text">Travel</h2>
-                <h2 className="second-text">Care</h2>
               </div>
             </div>
           </div>
@@ -35,8 +33,6 @@ const ChooseProduct = () => {
                 </a>
               </Link>
               <div className="choose-product-card-content">
-                <h2 className="first-text">sport</h2>
-                <h2 className="second-text style-2">Health</h2>
               </div>
             </div>
           </div>
@@ -48,8 +44,6 @@ const ChooseProduct = () => {
                 </a>
               </Link>
               <div className="choose-product-card-content style-2">
-                <h2 className="first-text style-2">Health</h2>
-                <h2 className="second-text style-3">Care</h2>
               </div>
             </div>
           </div>

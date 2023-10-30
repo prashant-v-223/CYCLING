@@ -22,28 +22,28 @@ const checkout = () => {
   const [time, setTime] = useState(initialTime);
   const [payment, setPayment] = useState("");
   const [activeTab, setActiveTab] = useState(2);
-  let upiid = "mab0450841a0083363@yesbank"; 
+  let upiid = "merchant1071379.augp@aubank"; 
   useEffect(() => {
    switch (activeTab) {
        case 4:
            setPayment(`paytmmp://pay?pa=${upiid}&pn=Book My Event&am=${
                Number(
-                cancelcartTotalPrice
+                cartTotalPrice
            )}&tr=H2MkMGf5olejI&mc=8931&cu=INR&tn=Online%20Shopping`);
            break;
        case 1:
            setPayment(`bhim://pay?pa=${upiid}&pn=Online%20Shopping&am=${Number(
-            cancelcartTotalPrice
+            cartTotalPrice
            )}&tr=H2MkMGf5olejI&mc=8931&cu=INR&tn=Online%20Shopping`);
            break;
        case 2:
            setPayment(`tez://upi/pay?pa=${upiid}&pn=Online%20Shopping&am=${Number(
-            cancelcartTotalPrice
+            cartTotalPrice
            )}&tr=H2MkMGf5olejI&mc=8931&cu=INR&tn=Online%20Shopping`);
            break;
        case 3:
            setPayment(`phonepe://pay?pa=${upiid}&pn=Book My Event&am=${Number(
-            cancelcartTotalPrice
+            cartTotalPrice
            )}&tr=H2MkMGf5olejI&mc=8931&cu=INR&tn=Online%20Shopping`);
            break;
        case 5:

@@ -92,7 +92,7 @@ const Footer = () => {
                     <p>©Copyright 2023 zidkart | Design By <a href="https://www.egenslab.com/">Egens Lab</a></p>
                 </div>
                 <div className="footer-logo">
-                    <Link legacyBehavior href="/"><a><img src="/assets/img/logo.svg" alt="" /></a></Link>
+                    <Link legacyBehavior href="/"><a><img src="/assets/img/Zidkart logo.png" alt="" /></a></Link>
                 </div>
                 <div className="footer-contact">
                     <div className="logo">

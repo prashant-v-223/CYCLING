@@ -3,7 +3,7 @@ export const banner1Data = [
     id: 1,
     title: "two-wheeled steerable machine that is pedaled by the rider's feet",
     description:
-      "Whatever your summer looks like, bring your own heat with up to 25% off Lumin Brand.",
+      "whatever your winter looks like, bring your own mountain bike with zidkart up to 50% off and stay fit and healthy.",
     banner_img: "/assets/img/1045x700 1.jpg",
     discount: "50",
     blackFriday: true,
@@ -12,7 +12,7 @@ export const banner1Data = [
     id: 2,
     title: "two-wheeled steerable machine that is pedaled by the rider's feet",
     description:
-      "Whatever your summer looks like, bring your own heat with up to 25% off Lumin Brand.",
+      "whatever your winter looks like, bring your own mountain bike with zidkart up to 50% off and stay fit and healthy.",
     banner_img: "/assets/img/1045x700 2.jpg",
     discount: "80",
     blackFriday: true,
@@ -21,7 +21,7 @@ export const banner1Data = [
     id: 3,
     title: "two-wheeled steerable machine that is pedaled by the rider's feet",
     description:
-      "Whatever your summer looks like, bring your own heat with up to 25% off Lumin Brand.",
+      "whatever your winter looks like, bring your own mountain bike with zidkart up to 50% off and stay fit and healthy.",
     banner_img: "/assets/img/1045x700 3.jpg",
     discount: "75",
     blackFriday: true,

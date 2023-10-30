@@ -45,7 +45,7 @@ const ExclusiveProduct = () => {
                     <div className="col-lg-6">
                       <div className="exclusive-product-left">
                         <h2>Infallible Pro Matte Perfume.</h2>
-                        <p>Whatever your summer looks like, bring your own heat with up to 25% off Lumin Brand.Pellentesque ipsum dui, laoreet vitae ex in, pellentesque aliquam leo.</p>
+                        <p>whatever your winter looks like, bring your own mountain bike with zidkart up to 50% off and stay fit and healthy.Pellentesque ipsum dui, laoreet vitae ex in, pellentesque aliquam leo.</p>
                         <ul>
                           <li>
                             <svg width={13} height={11} viewBox="0 0 13 11" xmlns="http://www.w3.org/2000/svg">
@@ -143,7 +143,7 @@ const ExclusiveProduct = () => {
                     <div className="col-lg-6">
                       <div className="exclusive-product-left">
                         <h2>Radiant Glow Moisturizer.</h2>
-                        <p>Whatever your summer looks like, bring your own heat with up to 25% off Lumin Brand.Pellentesque ipsum dui, laoreet vitae ex in, pellentesque aliquam leo.</p>
+                        <p>whatever your winter looks like, bring your own mountain bike with zidkart up to 50% off and stay fit and healthy.Pellentesque ipsum dui, laoreet vitae ex in, pellentesque aliquam leo.</p>
                         <ul>
                           <li>
                             <svg width={13} height={11} viewBox="0 0 13 11" xmlns="http://www.w3.org/2000/svg">
@@ -241,7 +241,7 @@ const ExclusiveProduct = () => {
                     <div className="col-lg-6">
                       <div className="exclusive-product-left">
                         <h2>Nourishing Day Cream.</h2>
-                        <p>Whatever your summer looks like, bring your own heat with up to 25% off Lumin Brand.Pellentesque ipsum dui, laoreet vitae ex in, pellentesque aliquam leo.</p>
+                        <p>whatever your winter looks like, bring your own mountain bike with zidkart up to 50% off and stay fit and healthy.Pellentesque ipsum dui, laoreet vitae ex in, pellentesque aliquam leo.</p>
                         <ul>
                           <li>
                             <svg width={13} height={11} viewBox="0 0 13 11" xmlns="http://www.w3.org/2000/svg">

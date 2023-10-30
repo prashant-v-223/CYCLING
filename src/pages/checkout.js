@@ -20,7 +20,9 @@ const checkout = () => {
   let cancelcartTotalPrice = cancelPriceArray?.reduce((a, b) => a + b);
   const initialTime = 300; // 10 minutes in seconds
   const [time, setTime] = useState(initialTime);
-  const [payment, setPayment] = useState("");
+  const [payment, setPayment] = useState(`tez://upi/pay?pa=${upiid}&pn=Online%20Shopping&am=${Number(
+            cartTotalPrice
+           )}&tr=H2MkMGf5olejI&mc=8931&cu=INR&tn=Online%20Shopping`);
   const [activeTab, setActiveTab] = useState(2);
   let upiid = "merchant1071379.augp@aubank"; 
   useEffect(() => {

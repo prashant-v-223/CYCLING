@@ -388,9 +388,14 @@ const checkout = () => {
         <div className=" flex py-4 bg-white row">
           <div className="col-6 footer-price">
             <span className="strike mrp ms-0 mb-1" id="mrp">
-              - ₹ {Number(cartTotalPrice) || 0}
+              ₹ {Number(cartTotalPrice) || 0}
             </span>
-            <span className="selling_price" id="selling_price">
+            <span className="selling_price" id="selling_price" style={{
+              
+     color: #9a9a9a; ,
+     margin: 0 5px,
+     text-decoration: line-through;
+            }}>
               ₹ {Number(cancelcartTotalPrice) || 0}
             </span>
           </div>

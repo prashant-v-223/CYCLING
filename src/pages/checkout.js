@@ -202,7 +202,7 @@ const checkout = () => {
         <h3>Price Details</h3>
         <div className="price-detail-div mt-2">
           <div className="product-price-list my-3">
-            <span className="title">{`Price (₹{data?.length} item)`}</span>
+            <span className="title">{`Price (${data?.length} item)`}</span>
             <span className="data selling_price me-0 td-none">
               ₹ {Number(cartTotalPrice) || 0}
             </span>
@@ -220,7 +220,7 @@ const checkout = () => {
           <div className="product-price-list mt-3 pt-3 total">
             <span className="title">Amount Payable</span>
             <span className="data selling_price">
-              ₹ {Number(cancelcartTotalPrice) || 0}
+              ₹ {Number(cartTotalPrice) || 0}
             </span>
           </div>
         </div>

@@ -65,6 +65,33 @@ const checkout = () => {
   return (
     <div>
       <div className="card py-1 my-1">
+     <div className="card px-3 py-4 mb-2" id="price-detail">
+        <h3>Price Details</h3>
+        <div className="price-detail-div mt-2">
+          <div className="product-price-list my-3">
+            <span className="title">{`Price (${data?.length} item)`}</span>
+            <span className="data selling_price me-0 td-none">
+              ₹ {Number(cartTotalPrice) || 0}
+            </span>
+          </div>
+          <div className="product-price-list my-3">
+            <span className="title">Discount</span>
+            <span className="data discount-amt text-success">
+              ₹ {Number(cartTotalPrice - cancelcartTotalPrice) || 0}
+            </span>
+          </div>
+          <div className="product-price-list my-3">
+            <span className="title">Delivery Charges</span>
+            <span className="data text-success">FREE </span>
+          </div>
+          <div className="product-price-list mt-3 pt-3 total">
+            <span className="title">Amount Payable</span>
+            <span className="data selling_price">
+              ₹ {Number(cartTotalPrice) || 0}
+            </span>
+          </div>
+        </div>
+      </div>
         <div className="py-2 px-3 dddd">
           <div
             id="divgpay"
@@ -195,33 +222,6 @@ const checkout = () => {
               />
               <span className="unaviablee px-4">Whatspp Pay</span>
             </label>
-          </div>
-        </div>
-      </div>
-      <div className="card px-3 py-4 mb-2" id="price-detail">
-        <h3>Price Details</h3>
-        <div className="price-detail-div mt-2">
-          <div className="product-price-list my-3">
-            <span className="title">{`Price (${data?.length} item)`}</span>
-            <span className="data selling_price me-0 td-none">
-              ₹ {Number(cartTotalPrice) || 0}
-            </span>
-          </div>
-          <div className="product-price-list my-3">
-            <span className="title">Discount</span>
-            <span className="data discount-amt text-success">
-              ₹ {Number(cartTotalPrice - cancelcartTotalPrice) || 0}
-            </span>
-          </div>
-          <div className="product-price-list my-3">
-            <span className="title">Delivery Charges</span>
-            <span className="data text-success">FREE </span>
-          </div>
-          <div className="product-price-list mt-3 pt-3 total">
-            <span className="title">Amount Payable</span>
-            <span className="data selling_price">
-              ₹ {Number(cartTotalPrice) || 0}
-            </span>
           </div>
         </div>
       </div>

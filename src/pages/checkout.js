@@ -394,7 +394,7 @@ const checkout = () => {
               
      color: "#9a9a9a" ,
      margin: 0 5px,
-     text-decoration: line-through;
+     text-decoration:"line-through"
             }}>
               ₹ {Number(cancelcartTotalPrice) || 0}
             </span>

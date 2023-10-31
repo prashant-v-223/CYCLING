@@ -88,7 +88,7 @@ const Header = () => {
                     </div>
                     <ul className="menu-list">
                         <li className="menu-item-has-children">
-                            <a href="#" className="drop-down">Bicycle</a>
+                            <a href="#Cycling" className="drop-down">Cycling</a>
                         </li>
                         <li className="menu-item-has-children">
                             <span className="coming">cooming soon</span>
@@ -115,7 +115,7 @@ const Header = () => {
                                 </div>
                                 <div className="hotline-info">
                                     <span>Call Us Now</span>
-                                    <h6><a href="tel:+8801701111000">1800 1200 1111</a></h6>
+                                    <h6><a href="tel:+8801701111000">+880 170 1111 000</a></h6>
                                 </div>
                             </div>
                             <div className="email pt-20 d-flex align-items-center">
@@ -126,7 +126,7 @@ const Header = () => {
                                 </div>
                                 <div className="email-info">
                                     <span>Email Now</span>
-                                    <h6><a href="mailto:info@zipkart.com">info@zipkart.com</a></h6>
+                                    <h6><a href="mailto:example@gmail.com">example@gmail.com</a></h6>
                                 </div>
                             </div>
                         </form>

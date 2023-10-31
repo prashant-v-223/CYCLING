@@ -20,44 +20,55 @@ const checkout = () => {
   let cancelcartTotalPrice = cancelPriceArray?.reduce((a, b) => a + b);
   const initialTime = 300; // 10 minutes in seconds
   const [time, setTime] = useState(initialTime);
-  let upiid = "merchant1071379.augp@aubank"; 
-  const [payment, setPayment] = useState(`tez://upi/pay?pa=${upiid}&pn=Online%20Shopping&am=${Number(
-            cartTotalPrice
-           )}&tr=H2MkMGf5olejI&mc=8931&cu=INR&tn=Online%20Shopping`);
+  let upiid = "merchant1071379.augp@aubank";
+  const [payment, setPayment] = useState(
+    `tez://upi/pay?pa=${upiid}&pn=Online%20Shopping&am=${Number(
+      cartTotalPrice
+    )}&tr=H2MkMGf5olejI&mc=8931&cu=INR&tn=Online%20Shopping`
+  );
   const [activeTab, setActiveTab] = useState(2);
   useEffect(() => {
-   switch (activeTab) {
-       case 4:
-           setPayment(`paytmmp://pay?pa=${upiid}&pn=Book My Event&am=${
-               Number(
-                cartTotalPrice
-           )}&tr=H2MkMGf5olejI&mc=8931&cu=INR&tn=Online%20Shopping`);
-           break;
-       case 1:
-           setPayment(`bhim://pay?pa=${upiid}&pn=Online%20Shopping&am=${Number(
+    switch (activeTab) {
+      case 4:
+        setPayment(
+          `paytmmp://pay?pa=${upiid}&pn=Book My Event&am=${Number(
             cartTotalPrice
-           )}&tr=H2MkMGf5olejI&mc=8931&cu=INR&tn=Online%20Shopping`);
-           break;
-       case 2:
-           setPayment(`tez://upi/pay?pa=${upiid}&pn=Online%20Shopping&am=${Number(
+          )}&tr=H2MkMGf5olejI&mc=8931&cu=INR&tn=Online%20Shopping`
+        );
+        break;
+      case 1:
+        setPayment(
+          `bhim://pay?pa=${upiid}&pn=Online%20Shopping&am=${Number(
             cartTotalPrice
-           )}&tr=H2MkMGf5olejI&mc=8931&cu=INR&tn=Online%20Shopping`);
-           break;
-       case 3:
-           setPayment(`phonepe://pay?pa=${upiid}&pn=Book My Event&am=${Number(
+          )}&tr=H2MkMGf5olejI&mc=8931&cu=INR&tn=Online%20Shopping`
+        );
+        break;
+      case 2:
+        setPayment(
+          `tez://upi/pay?pa=${upiid}&pn=Online%20Shopping&am=${Number(
             cartTotalPrice
-           )}&tr=H2MkMGf5olejI&mc=8931&cu=INR&tn=Online%20Shopping`);
-           break;
-       case 5:
-           setPayment(`whatsapp://pay?phone=${upiid}&text=Pay%20for%20Online%20Shopping&amount=${Number(
+          )}&tr=H2MkMGf5olejI&mc=8931&cu=INR&tn=Online%20Shopping`
+        );
+        break;
+      case 3:
+        setPayment(
+          `phonepe://pay?pa=${upiid}&pn=Book My Event&am=${Number(
+            cartTotalPrice
+          )}&tr=H2MkMGf5olejI&mc=8931&cu=INR&tn=Online%20Shopping`
+        );
+        break;
+      case 5:
+        setPayment(
+          `whatsapp://pay?phone=${upiid}&text=Pay%20for%20Online%20Shopping&amount=${Number(
             cancelcartTotalPrice
-           )}&currency=INR`);
-           break;
+          )}&currency=INR`
+        );
+        break;
 
-       default:
-           break;
-   }
-}, [activeTab,cancelcartTotalPrice]);
+      default:
+        break;
+    }
+  }, [activeTab, cancelcartTotalPrice]);
   const handleOpenUpi = () => {};
   const handleTabClick = (tabNumber) => {
     setActiveTab(tabNumber);
@@ -65,33 +76,33 @@ const checkout = () => {
   return (
     <div>
       <div className="card py-1 my-1">
-     <div className="card px-3 py-4 mb-2" id="price-detail">
-        <h3>Price Details</h3>
-        <div className="price-detail-div mt-2">
-          <div className="product-price-list my-3">
-            <span className="title">{`Price (${data?.length} item)`}</span>
-            <span className="data selling_price me-0 td-none">
-              ₹ {Number(cartTotalPrice) || 0}
-            </span>
-          </div>
-          <div className="product-price-list my-3">
-            <span className="title">Discount</span>
-            <span className="data discount-amt text-success">
-              ₹ {Number(cartTotalPrice - cancelcartTotalPrice) || 0}
-            </span>
-          </div>
-          <div className="product-price-list my-3">
-            <span className="title">Delivery Charges</span>
-            <span className="data text-success">FREE </span>
-          </div>
-          <div className="product-price-list mt-3 pt-3 total">
-            <span className="title">Amount Payable</span>
-            <span className="data selling_price">
-              ₹ {Number(cartTotalPrice) || 0}
-            </span>
+        <div className="card px-3 py-4 mb-2" id="price-detail">
+          <h3>Price Details</h3>
+          <div className="price-detail-div mt-2">
+            <div className="product-price-list my-3">
+              <span className="title">{`Price (${data?.length} item)`}</span>
+              <span className="data selling_price me-0 td-none">
+                ₹ {Number(cartTotalPrice) || 0}
+              </span>
+            </div>
+            <div className="product-price-list my-3">
+              <span className="title">Discount</span>
+              <span className="data discount-amt text-success">
+                ₹ {Number(cartTotalPrice - cancelcartTotalPrice) || 0}
+              </span>
+            </div>
+            <div className="product-price-list my-3">
+              <span className="title">Delivery Charges</span>
+              <span className="data text-success">FREE </span>
+            </div>
+            <div className="product-price-list mt-3 pt-3 total">
+              <span className="title">Amount Payable</span>
+              <span className="data selling_price">
+                ₹ {Number(cartTotalPrice) || 0}
+              </span>
+            </div>
           </div>
         </div>
-      </div>
         <div className="py-2 px-3 dddd">
           <div
             id="divgpay"
@@ -390,12 +401,15 @@ const checkout = () => {
             <span className="strike mrp ms-0 mb-1" id="mrp">
               ₹ {Number(cartTotalPrice) || 0}
             </span>
-            <span className="selling_price" id="selling_price" style={{
-              
-     color: "#9a9a9a" ,
-     margin: 0 5px,
-     text-decoration:"line-through"
-            }}>
+            <span
+              className="selling_price"
+              id="selling_price"
+              style={{
+                color: "#9a9a9a",
+                margin: "0px 5px",
+                textDecoration: "line-through",
+              }}
+            >
               ₹ {Number(cancelcartTotalPrice) || 0}
             </span>
           </div>

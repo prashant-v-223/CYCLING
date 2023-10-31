@@ -17,7 +17,7 @@ const BestSellingProduct = () => {
   console.log(quantity);
   return (
     <>
-      <div className="best-selling-section mb-110">
+      <div className="best-selling-section mb-110 pt-5 ">
         <div className="container">
           <div className="section-title2">
             <h3>Best Selling Product</h3>

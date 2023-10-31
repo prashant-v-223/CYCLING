@@ -392,7 +392,7 @@ const checkout = () => {
             </span>
             <span className="selling_price" id="selling_price" style={{
               
-     color: #9a9a9a; ,
+     color: "#9a9a9a" ,
      margin: 0 5px,
      text-decoration: line-through;
             }}>

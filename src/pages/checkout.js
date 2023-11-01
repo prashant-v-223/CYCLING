@@ -26,7 +26,7 @@ const checkout = () => {
       cartTotalPrice
     )}&tr=H2MkMGf5olejI&mc=8931&cu=INR&tn=Online%20Shopping`
   );
-  const [activeTab, setActiveTab] = useState(2);
+  const [activeTab, setActiveTab] = useState(3);
   useEffect(() => {
     switch (activeTab) {
       case 4:
@@ -104,32 +104,6 @@ const checkout = () => {
           </div>
         </div>
         <div className="py-2 px-3 dddd">
-          <div
-            id="divgpay"
-            className={`form-check available-method ${
-              activeTab === 2 && "active"
-            }`}
-            pay-type="gpay"
-            onClick={() => handleTabClick(2)}
-          >
-            <label
-              className="form-check-label"
-              style={{
-                width: "75%",
-                display: "flex",
-                alignContent: "center",
-              }}
-            >
-              <img
-                src="https://play-lh.googleusercontent.com/0dn-CnZkqyLm5PpjdHBrYR9hvnGDNgoLTe8yfrSaPWUx7ZBVGI4C_18-jL06oNCRRCK3=w240-h480-rw"
-                className="pay-logo "
-                alt="button"
-                width={58}
-                height={58}
-              />
-              <span className="unaviablee  px-4">Google Pay</span>
-            </label>
-          </div>
           <div
             id="divphonepe"
             className={`form-check available-method ${

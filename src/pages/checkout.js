@@ -29,8 +29,8 @@ const checkout = () => {
     let d = localStorage.getItem("carditams");
     let cd = localStorage.getItem("user");
     setdata(JSON?.parse(d));
-    setaddress(JSON?.parse(d));
-  }, []);
+    setaddress(JSON?.parse(cd));
+  }, [active]);
   let priceArray = [0];
   let cancelPriceArray = [0];
 
@@ -268,7 +268,7 @@ const checkout = () => {
                     {address123?.address}
                   </span>
                 </div>
-                <div className="product-price-list mt-3 pt-3 total">
+                <div className="product-price-list mt-3 total">
                   <span className="title">Phone Number</span>
                   <span className="data selling_price">
                     {address123.phone}

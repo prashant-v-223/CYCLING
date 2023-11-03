@@ -39,7 +39,6 @@ const Footer = () => {
                     <ul className="widget-list">
                     <li><Link legacyBehavior href="/shop"><a>GADGETS</a></Link></li>
                     <li><Link legacyBehavior href="/shop"><a>CLOTHING</a></Link></li>
-                    <li><Link legacyBehavior href="/shop"><a>HAND BAG</a></Link></li>
                     </ul>
                 </div>
                 </div>

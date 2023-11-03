@@ -5,7 +5,7 @@ import SelectComponent from '@/src/components/common/SelectComponent'
 import { useCountdownTimer } from '@/src/hooks/useCountdownTimer'
 import Box from '@mui/material/Box';
 import Slider from '@mui/material/Slider';
-import data from "../../../csvjson.json"
+import data from "../../../csvjson12.json";
 import useQuantityCounter from '@/src/hooks/useQuantityCounter'
 
 function valuetext(value) {
@@ -76,9 +76,6 @@ const ShopPage = () => {
                 </li>
                 <li>
                   <Link legacyBehavior href="/shop"><a>clothing</a></Link>
-                </li>
-                <li>
-                  <Link legacyBehavior href="/shop"><a>Hand Bags</a></Link>
                 </li>
               </ul>
             </div>
@@ -202,7 +199,7 @@ const ShopPage = () => {
           </div>
           <div className="all-products list-grid-product-wrap ">
             <div className="row gy-4">
-              {data.map((e, i) => {
+              {data.data.map((e, i) => {
                 if (e.VariantCompareAtPrice !== "" && e.Title !== "") {
                   return (
                     <div className="col-lg-4 col-md-6" key={i}>

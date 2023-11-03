@@ -4,7 +4,7 @@ export const banner1Data = [
     title: "two-wheeled steerable machine that is pedaled by the rider's feet",
     description:
       "whatever your winter looks like, bring your own mountain bike with zidkart up to 50% off and stay fit and healthy.",
-    banner_img: "/assets/img/1045x700 1.jpg",
+    banner_img: "/assets/img/main banner.jpg",
     discount: "50",
     blackFriday: true,
   },
@@ -13,7 +13,7 @@ export const banner1Data = [
     title: "two-wheeled steerable machine that is pedaled by the rider's feet",
     description:
       "whatever your winter looks like, bring your own mountain bike with zidkart up to 50% off and stay fit and healthy.",
-    banner_img: "/assets/img/1045x700 2.jpg",
+    banner_img: "/assets/img/main banner.jpg",
     discount: "80",
     blackFriday: true,
   },
@@ -22,7 +22,7 @@ export const banner1Data = [
     title: "two-wheeled steerable machine that is pedaled by the rider's feet",
     description:
       "whatever your winter looks like, bring your own mountain bike with zidkart up to 50% off and stay fit and healthy.",
-    banner_img: "/assets/img/1045x700 3.jpg",
+    banner_img: "/assets/img/main banner.jpg",
     discount: "75",
     blackFriday: true,
   },

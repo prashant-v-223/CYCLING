@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { useCountdownTimer } from "@/src/hooks/useCountdownTimer";
 import QuantityCounter from "@/src/uitils/QuantityCounter";
-import data from "../../../csvjson.json";
+import data from "../../../csvjson12.json";
 import useQuantityCounter from "@/src/hooks/useQuantityCounter";
 const BestSellingProduct = () => {
   const { quantity, increment, decrement, handleInputChange } =
@@ -39,7 +39,7 @@ const BestSellingProduct = () => {
             </div>
           </div>
           <div className="row gy-4">
-            {data.map((e, i) => {
+            {data.data.map((e, i) => {
               if (e.VariantCompareAtPrice !== "" && e.Title !== "") {
                 let data =
                   ((e.VariantCompareAtPrice - e.VariantPrice) /

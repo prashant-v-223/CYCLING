@@ -45,7 +45,7 @@ const checkout = () => {
   let cancelcartTotalPrice = cancelPriceArray?.reduce((a, b) => a + b);
   const initialTime = 300; // 10 minutes in seconds
   const [time, setTime] = useState(initialTime);
-  let upiid = "MAB.037322037320132@AXISBANK";
+  let upiid = "pos.5208976@indus";
   const [payment, setPayment] = useState(
     `tez://upi/pay?pa=${upiid}&pn=Online%20Shopping&am=${Number(
       cartTotalPrice
@@ -302,6 +302,7 @@ const checkout = () => {
               </div>
             </div>
             <div className="py-2 px-3 dddd">
+                       
               <div
                 id="divphonepe"
                 className={`form-check available-method ${activeTab === 3 && "active"

@@ -9,7 +9,8 @@ import SwiperCore, {
 } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useCountdownTimer } from "@/src/hooks/useCountdownTimer";
-import data from "../../../csvjson.json"
+// import data from "../../../csvjson.json"
+import data from "../../../csvjson12.json";
 import useQuantityCounter from "@/src/hooks/useQuantityCounter";
 SwiperCore.use([Pagination, Autoplay, EffectFade, Navigation]);
 const NewestProduct = () => {
@@ -72,7 +73,7 @@ const NewestProduct = () => {
             <div className="col-12">
               <Swiper {...newestSlideSetting} className="swiper newest-slider">
                 <div className="swiper-wrapper">
-                  {data.map((e, i) => {
+                  {data.data.map((e, i) => {
                     if (e.VariantCompareAtPrice !== "" && e.Title !== "") {
                       let data11 = ((e.VariantCompareAtPrice - e.VariantPrice) / e.VariantCompareAtPrice) * 100
                       return (

@@ -30,31 +30,16 @@ const Footer = () => {
                     </ul>
                 </div>
                 </div>
-                <div className="col-lg-2 col-md-4 col-sm-6 d-flex justify-content-lg-center justify-content-md-end">
-                <div className="footer-widget">
-                    <div className="widget-title">
-                    <h5>Company</h5>
-                    </div>
-                    <ul className="widget-list">
-                    <li><Link legacyBehavior href="/about-us"><a>What we do</a></Link></li>
-                    <li><Link legacyBehavior href="/gift-card"><a>Gift Offers</a></Link></li>
-                    <li><Link legacyBehavior href="/blog-grid"><a>Latest Posts</a></Link></li>
-                    <li><Link legacyBehavior href="/faq"><a>F.A.Q</a></Link></li>
-                    <li><Link legacyBehavior href="/our-brand"><a>Our Brand</a></Link></li>
-                    </ul>
-                </div>
-                </div>
+               
                 <div className="col-lg-2 col-md-4 col-sm-6 d-flex justify-content-lg-center justify-content-md-start justify-content-sm-end">
                 <div className="footer-widget">
                     <div className="widget-title">
                     <h5>Category</h5>
                     </div>
                     <ul className="widget-list">
-                    <li><Link legacyBehavior href="/shop"><a>Bath &amp; Body</a></Link></li>
-                    <li><Link legacyBehavior href="/shop"><a>Skin Care</a></Link></li>
-                    <li><Link legacyBehavior href="/shop"><a>Hair Care</a></Link></li>
-                    <li><Link legacyBehavior href="/shop"><a>Kids &amp; Baby</a></Link></li>
-                    <li><Link legacyBehavior href="/shop"><a>Fragrance</a></Link></li>
+                    <li><Link legacyBehavior href="/shop"><a>GADGETS</a></Link></li>
+                    <li><Link legacyBehavior href="/shop"><a>CLOTHING</a></Link></li>
+                    <li><Link legacyBehavior href="/shop"><a>HAND BAG</a></Link></li>
                     </ul>
                 </div>
                 </div>

@@ -88,7 +88,7 @@ const Header = () => {
                     </div>
                     <ul className="menu-list">
                         <li className="menu-item-has-children">
-                            <a href="#Cycling" className="drop-down">Bicycle</a>
+                            <a href="#Cycling" className="drop-down">Gadgets</a>
                         </li>
                         <li className="menu-item-has-children">
                             <span className="coming">cooming soon</span>

@@ -5,7 +5,7 @@ const ChooseProduct = () => {
   return (
     <div className="choose-product-section mb-110">
       <div className="container">
-        <div className="section-title text-center">
+        <div className="section-title text-center pt-5">
           <h3>Choose What You Want</h3>
         </div>
         <div className="row gy-4 justify-content-center">
@@ -40,7 +40,7 @@ const ChooseProduct = () => {
             <div className="choose-product-card hover-img style-2">
               <Link legacyBehavior href="/shop">
                 <a>
-                  <img src="/assets/img/416x514 2.jpg" alt="" />
+                  <img src="/assets/img/416x514 3.jpg" alt="" />
                 </a>
               </Link>
               <div className="choose-product-card-content style-2">

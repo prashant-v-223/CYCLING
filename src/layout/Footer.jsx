@@ -12,7 +12,7 @@ const Footer = () => {
             <div className="row g-lg-4 gy-5 justify-content-center">
                 <div className="col-lg-3 col-md-4 col-sm-6">
                 <div className="footer-widget">
-                    <h3>Want <span>to Take <br /></span> Beauty Product <span>off our Shop</span>?</h3>
+                    <h3>Want <span>to Take <br /></span> Electronic Product <span>off our Shop</span>?</h3>
                     <Link legacyBehavior href="/shop"><a  className="primary-btn1 hover-btn3">*Shop Now*</a></Link>
                 </div>
                 </div>

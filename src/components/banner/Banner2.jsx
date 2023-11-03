@@ -110,7 +110,7 @@ const Banner2 = () => {
                     >
                       <div className="banner-2-right-content">
                         <h2>
-                          Beauty Product <span>Under</span>
+                          Electronic Product <span>Under</span>
                           <strong>$25</strong>
                         </h2>
                         <p>

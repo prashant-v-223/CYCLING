@@ -268,12 +268,7 @@ const checkout = () => {
                     {address123?.address}
                   </span>
                 </div>
-                <div className="product-price-list mt-3 total">
-                  <span className="title">Phone Number</span>
-                  <span className="data selling_price">
-                    {address123.phone}
-                  </span>
-                </div>
+             
               </div>
               <h3>Price Details</h3>
               <div className="price-detail-div mt-2">
@@ -319,7 +314,7 @@ const checkout = () => {
                   }}
                 >
                   <img
-                    src="https://scontent.famd1-2.fna.fbcdn.net/v/t1.6435-9/43447413_1987166791348029_9209894455249731584_n.png?_nc_cat=105&ccb=1-7&_nc_sid=7a1959&_nc_ohc=pVsV_ZA6w8MAX-T1A9K&_nc_ht=scontent.famd1-2.fna&oh=00_AfBzH7jP4xPd7bJwz4ExLjev4f3ry61y48zoTKyh92yXOw&oe=6565B504"
+                    src="https://tse1.mm.bing.net/th?id=OIP.2_0YAo0hceQHhJWDipztRwHaHv&pid=Api"
                     className="pay-logo "
                     alt="button"
                     width={58}

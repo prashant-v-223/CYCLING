@@ -206,12 +206,10 @@ const ShopPage = () => {
                       <div className="product-card hover-btn">
                         <div className="product-card-img double-img">
                           <Link legacyBehavior href="/shop/product-default">
-                            <a>
                               <img src={e.ImageSrc} alt="" className="img1" />
                               <div className="batch">
                                 <span>-25%</span>
                               </div>
-                            </a>
                           </Link>
                           <div className="overlay" style={{
                             background: `url( ${e.ImageSrc})`,
@@ -264,7 +262,7 @@ const ShopPage = () => {
                             if (!dataaxist) {
                               localStorage.setItem('carditams', JSON.stringify([...olddata, data]))
                             }
-                          }}><Link legacyBehavior href="/shop/product-default"><a className="hover-underline">{e.Title}</a></Link></h6>
+                          }}><Link legacyBehavior href="" className="hover-underline">{e.Title}</Link></h6>
                           <p className="price">₹ {e.VariantPrice}<del>₹ {e.VariantCompareAtPrice}</del></p>
                           <div className="rating">
                             <ul>

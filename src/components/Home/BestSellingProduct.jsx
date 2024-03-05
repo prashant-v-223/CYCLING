@@ -59,17 +59,16 @@ const BestSellingProduct = () => {
                         localStorage.setItem("selectesdata", JSON.stringify(e));
                       }}
                     >
-                      <div className="product-card-img double-img">
-                        <Link
-                          legacyBehavior
-                          href="/shop/product-default"
-                          onClick={() => {
-                            localStorage.setItem(
-                              "selectesdata",
-                              JSON.stringify(e)
-                            );
-                          }}
-                        >
+                      <div
+                        className="product-card-img double-img"
+                        onClick={() => {
+                          localStorage.setItem(
+                            "selectesdata",
+                            JSON.stringify(e)
+                          );
+                        }}
+                      >
+                        <Link legacyBehavior href="/shop/product-default">
                           <a>
                             <img
                               src={e.ImageSrc}
@@ -319,7 +318,8 @@ const BestSellingProduct = () => {
                         </div>
                       </div>
                       <div
-                        className="shop-details-btn" data-bs-dismiss="modal"
+                        className="shop-details-btn"
+                        data-bs-dismiss="modal"
                         onClick={() => {
                           let olddata = JSON.parse(
                             localStorage.getItem("carditams")

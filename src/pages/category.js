@@ -17,14 +17,14 @@ function Category() {
               <div key={category.id} className="col-lg-3 col-sm-6">
                 <div className="category-card">
                   <div className="category-card-img hover-img">
-                    <Link legacyBehavior href="/shop">
+                    <Link legacyBehavior href="/">
                       <a>
                         <img src={category.img} alt="" />
                       </a>
                     </Link>
                   </div>
                   <div className="category-card-content">
-                    <Link legacyBehavior href="/shop">
+                    <Link legacyBehavior href="/">
                       <a>{category.category_title}</a>
                     </Link>
                   </div>

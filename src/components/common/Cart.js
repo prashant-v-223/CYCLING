@@ -201,7 +201,7 @@ const Cart = () => {
           <div className="footer-button">
             <ul>
               <li>
-                <Link legacyBehavior href="/shop">
+                <Link legacyBehavior href="/">
                   <a className="primary-btn1 hover-btn4">Continue Shopping</a>
                 </Link>
               </li>

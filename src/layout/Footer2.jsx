@@ -57,11 +57,11 @@ const Footer2 = () => {
                   <h5>Category</h5>
                 </div>
                 <ul className="widget-list">
-                  <li><Link legacyBehavior href="/shop"><a>Bath &amp; Body</a></Link></li>
-                  <li><Link legacyBehavior href="/shop"><a>Skin Care</a></Link></li>
-                  <li><Link legacyBehavior href="/shop"><a>Hair Care</a></Link></li>
-                  <li><Link legacyBehavior href="/shop"><a>Kids &amp; Baby</a></Link></li>
-                  <li><Link legacyBehavior href="/shop"><a>Fragrance</a></Link></li>
+                  <li><Link legacyBehavior href="/"><a>Bath &amp; Body</a></Link></li>
+                  <li><Link legacyBehavior href="/"><a>Skin Care</a></Link></li>
+                  <li><Link legacyBehavior href="/"><a>Hair Care</a></Link></li>
+                  <li><Link legacyBehavior href="/"><a>Kids &amp; Baby</a></Link></li>
+                  <li><Link legacyBehavior href="/"><a>Fragrance</a></Link></li>
                 </ul>
               </div>
             </div>

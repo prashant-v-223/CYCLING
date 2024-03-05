@@ -40,7 +40,7 @@ const Banner2 = () => {
                 <h2>
                   Up to <strong>40%</strong> off All Makeup
                 </h2>
-                <Link legacyBehavior href="/shop">
+                <Link legacyBehavior href="/">
                   <a className="primary-btn3 hover-btn5">Shop Now</a>
                 </Link>
               </div>
@@ -67,7 +67,7 @@ const Banner2 = () => {
                           Whatever your summer looks like, bring yourown heat
                           with up to 25% off Lumin Brand.
                         </p>
-                        <Link legacyBehavior href="/shop">
+                        <Link legacyBehavior href="/">
                           <a className="primary-btn3 black-bg hover-btn5 hover-white">
                             Shop Now
                           </a>
@@ -92,7 +92,7 @@ const Banner2 = () => {
                           Whatever your summer looks like, bring yourown heat
                           with up to 25% off Lumin Brand.
                         </p>
-                        <Link legacyBehavior href="/shop">
+                        <Link legacyBehavior href="/">
                           <a className="primary-btn3 black-bg hover-btn5 hover-white">
                             Shop Now
                           </a>
@@ -117,7 +117,7 @@ const Banner2 = () => {
                           Whatever your summer looks like, bring yourown heat
                           with up to 25% off Lumin Brand.
                         </p>
-                        <Link legacyBehavior href="/shop">
+                        <Link legacyBehavior href="/">
                           <a className="primary-btn3 black-bg hover-btn5 hover-white">
                             Shop Now
                           </a>
@@ -142,7 +142,7 @@ const Banner2 = () => {
                           Whatever your summer looks like, bring yourown heat
                           with up to 25% off Lumin Brand.
                         </p>
-                        <Link legacyBehavior href="/shop">
+                        <Link legacyBehavior href="/">
                           <a className="primary-btn3 black-bg hover-btn5 hover-white">
                             Shop Now
                           </a>

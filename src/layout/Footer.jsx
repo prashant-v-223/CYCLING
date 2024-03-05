@@ -13,7 +13,7 @@ const Footer = () => {
                 <div className="col-lg-3 col-md-4 col-sm-6">
                 <div className="footer-widget">
                     <h3>Want <span>to Take <br /></span> Electronic Product <span>off our Shop</span>?</h3>
-                    <Link legacyBehavior href="/shop"><a  className="primary-btn1 hover-btn3">*Shop Now*</a></Link>
+                    <Link legacyBehavior href="/"><a  className="primary-btn1 hover-btn3">*Shop Now*</a></Link>
                 </div>
                 </div>
                 <div className="col-lg-2 col-md-4 col-sm-6 d-flex justify-content-lg-start justify-content-sm-end">
@@ -24,7 +24,7 @@ const Footer = () => {
                     <ul className="widget-list">
                     <li><Link legacyBehavior href="/contact"><a>Help &amp; Contact Us</a></Link></li>
                     <li><a href="#">Return &amp; Refunds</a></li>
-                    <li><Link legacyBehavior href="/shop"><a>Online Stores</a></Link></li>
+                    <li><Link legacyBehavior href="/"><a>Online Stores</a></Link></li>
                     <li><a href="#">Privacy Policy</a></li>
                     <li><Link legacyBehavior href="/my-account"><a>Profile</a></Link></li>
                     </ul>
@@ -37,8 +37,8 @@ const Footer = () => {
                     <h5>Category</h5>
                     </div>
                     <ul className="widget-list">
-                    <li><Link legacyBehavior href="/shop"><a>GADGETS</a></Link></li>
-                    <li><Link legacyBehavior href="/shop"><a>CLOTHING</a></Link></li>
+                    <li><Link legacyBehavior href="/"><a>GADGETS</a></Link></li>
+                    <li><Link legacyBehavior href="/"><a>CLOTHING</a></Link></li>
                     </ul>
                 </div>
                 </div>

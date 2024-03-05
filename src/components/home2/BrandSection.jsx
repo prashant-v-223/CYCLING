@@ -15,7 +15,7 @@ const BrandSection = () => {
             <div className="row g-md-0 g-4 justify-content-center row-cols-xl-5 row-cols-lg-5 row-cols-md-5 row-cols-sm-4 row-cols-2 brand-border-bottom">
               <div className="col d-flex justify-content-center brand-divider">
                 <div className="brand-img pb-35">
-                  <Link legacyBehavior href="/shop">
+                  <Link legacyBehavior href="/">
                     <a>
                     <img src="/assets/img/home2/brand-img1.png" alt="" />
                     </a>
@@ -24,7 +24,7 @@ const BrandSection = () => {
               </div>
               <div className="col d-flex justify-content-center brand-divider">
                 <div className="brand-img pb-35">
-                  <Link legacyBehavior href="/shop">
+                  <Link legacyBehavior href="/">
                     <a>
                     <img src="/assets/img/home2/brand-img2.png" alt="" />
                     </a>
@@ -33,7 +33,7 @@ const BrandSection = () => {
               </div>
               <div className="col d-flex justify-content-center brand-divider">
                 <div className="brand-img pb-35">
-                  <Link legacyBehavior href="/shop">
+                  <Link legacyBehavior href="/">
                     <a>
                     <img src="/assets/img/home2/brand-img3.png" alt="" />
                     </a>
@@ -42,7 +42,7 @@ const BrandSection = () => {
               </div>
               <div className="col d-flex justify-content-center brand-divider">
                 <div className="brand-img pb-35">
-                  <Link legacyBehavior href="/shop">
+                  <Link legacyBehavior href="/">
                     <a>
                     <img src="/assets/img/home2/brand-img4.png" alt="" />
                     </a>
@@ -51,7 +51,7 @@ const BrandSection = () => {
               </div>
               <div className="col d-flex justify-content-center">
                 <div className="brand-img pb-35">
-                  <Link legacyBehavior href="/shop">
+                  <Link legacyBehavior href="/">
                     <a>
                     <img src="/assets/img/home2/brand-img5.png" alt="" />
                     </a>
@@ -60,7 +60,7 @@ const BrandSection = () => {
               </div>
               <div className="col d-flex justify-content-center brand-divider">
                 <div className="brand-img pt-35">
-                  <Link legacyBehavior href="/shop">
+                  <Link legacyBehavior href="/">
                     <a>
                     <img src="/assets/img/home2/brand-img6.png" alt="" />
                     </a>
@@ -69,7 +69,7 @@ const BrandSection = () => {
               </div>
               <div className="col d-flex justify-content-center brand-divider">
                 <div className="brand-img pt-35">
-                  <Link legacyBehavior href="/shop">
+                  <Link legacyBehavior href="/">
                     <a>
                     <img src="/assets/img/home2/brand-img7.png" alt="" />
                     </a>
@@ -78,7 +78,7 @@ const BrandSection = () => {
               </div>
               <div className="col d-flex justify-content-center brand-divider">
                 <div className="brand-img pt-35">
-                  <Link legacyBehavior href="/shop">
+                  <Link legacyBehavior href="/">
                     <a>
                     <img src="/assets/img/home2/brand-img8.png" alt="" />
                     </a>
@@ -87,7 +87,7 @@ const BrandSection = () => {
               </div>
               <div className="col d-flex justify-content-center brand-divider">
                 <div className="brand-img pt-35">
-                  <Link legacyBehavior href="/shop">
+                  <Link legacyBehavior href="/">
                     <a>
                     <img src="/assets/img/home2/brand-img9.png" alt="" />
                     </a>
@@ -96,7 +96,7 @@ const BrandSection = () => {
               </div>
               <div className="col d-flex justify-content-center">
                 <div className="brand-img pt-35">
-                  <Link legacyBehavior href="/shop">
+                  <Link legacyBehavior href="/">
                     <a>
                     <img src="/assets/img/home2/brand-img10.png" alt="" />
                     </a>

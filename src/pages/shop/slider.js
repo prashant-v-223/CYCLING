@@ -153,7 +153,7 @@ const Slider = () => {
                       <div className="product-card-content">
                       <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Super Healthy Sleep
                           Oil</a></Link></h6>
-                      <p><Link legacyBehavior href="/shop"><a>borage
+                      <p><Link legacyBehavior href="/"><a>borage
                         </a></Link></p>
                       <p className="price">$150.00 <del>$200.00</del></p>
                       <div className="rating">
@@ -215,7 +215,7 @@ const Slider = () => {
                           Mask
                         </a>
                           </Link></h6>
-                      <p><Link legacyBehavior href="/shop"><a>BelleLuxe</a></Link></p>
+                      <p><Link legacyBehavior href="/"><a>BelleLuxe</a></Link></p>
                       <p className="price">$140.00 <del>$200.00</del></p>
                       <div className="rating">
                           <ul>
@@ -281,7 +281,7 @@ const Slider = () => {
                           Tint
                         </a>
                           </Link></h6>
-                      <p><Link legacyBehavior href="/shop"><a>Loreal</a></Link></p>
+                      <p><Link legacyBehavior href="/"><a>Loreal</a></Link></p>
                       <p className="price">$130.00</p>
                       <div className="rating">
                           <ul>
@@ -342,7 +342,7 @@ const Slider = () => {
                         Face makeup Package
                         </a>
                         </Link></h6>
-                      <p><Link legacyBehavior href="/shop">Enchantia</Link></p>
+                      <p><Link legacyBehavior href="/">Enchantia</Link></p>
                       <p className="price">$120.00 <del>$200.00</del></p>
                       <div className="rating">
                           <ul>
@@ -402,7 +402,7 @@ const Slider = () => {
                         </a>
                           
                           </Link></h6>
-                      <p><Link legacyBehavior href="/shop"><a>Glow Flair</a></Link></p>
+                      <p><Link legacyBehavior href="/"><a>Glow Flair</a></Link></p>
                       <p className="price">$145.00 <del>$200.00</del></p>
                       <div className="rating">
                           <ul>
@@ -460,7 +460,7 @@ const Slider = () => {
                       <h6><Link legacyBehavior href="/shop/product-default" >
                         <a className="hover-underline">Organic vitamin
                           cream</a></Link></h6>
-                      <p><Link legacyBehavior href="/shop"><a>pantene</a></Link></p>
+                      <p><Link legacyBehavior href="/"><a>pantene</a></Link></p>
                       <p className="price">$140.00 <del>$200.00</del></p>
                       <div className="rating">
                           <ul>
@@ -549,7 +549,7 @@ const Slider = () => {
                         Oil
                         </a>
                         </Link></h6>
-                    <p><Link legacyBehavior href="/shop"><a>herbolive</a></Link></p>
+                    <p><Link legacyBehavior href="/"><a>herbolive</a></Link></p>
                     <p className="price">$110.00 <del>$150.00</del></p>
                     <div className="rating">
                         <ul>
@@ -623,7 +623,7 @@ const Slider = () => {
                     <div className="product-card-content">
                     <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Estee Lauder Body
                         Lotion</a></Link></h6>
-                    <p><Link legacyBehavior href="/shop"><a>REVLON</a></Link></p>
+                    <p><Link legacyBehavior href="/"><a>REVLON</a></Link></p>
                     <p className="price">$100.00</p>
                     <div className="rating">
                         <ul>
@@ -682,7 +682,7 @@ const Slider = () => {
                     </div>
                     <div className="product-card-content">
                     <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Chanel Eau De parfume</a></Link></h6>
-                    <p><Link legacyBehavior href="/shop"><a>CHANEL</a></Link></p>
+                    <p><Link legacyBehavior href="/"><a>CHANEL</a></Link></p>
                     <p className="price">$95.00 <del>$150.00</del></p>
                     <ul className="product-size">
                         <li>250 ml</li>
@@ -738,7 +738,7 @@ const Slider = () => {
                     <h6><Link legacyBehavior href="/shop/product-default">
                       <a  className="hover-underline">Sesderma foamy
                         soap</a></Link></h6>
-                    <p><Link legacyBehavior href="/shop"><a>EternalGlow</a></Link></p>
+                    <p><Link legacyBehavior href="/"><a>EternalGlow</a></Link></p>
                     <p className="price">$88.00 <del>$200.00</del></p>
                     <div className="rating">
                         <ul>
@@ -795,7 +795,7 @@ const Slider = () => {
                     <div className="product-card-content">
                     <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Bamboo Fibers
                         Shampoo</a></Link></h6>
-                    <p><Link legacyBehavior href="/shop"><a>Glow Flair</a></Link></p>
+                    <p><Link legacyBehavior href="/"><a>Glow Flair</a></Link></p>
                     <p className="price">$145.00 <del>$200.00</del></p>
                     <div className="rating">
                         <ul>
@@ -854,7 +854,7 @@ const Slider = () => {
                     <div className="product-card-content">
                     <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Organic vitamin
                         cream</a></Link></h6>
-                    <p><Link legacyBehavior href="/shop"><a>pantene</a></Link></p>
+                    <p><Link legacyBehavior href="/"><a>pantene</a></Link></p>
                     <p className="price">$140.00 <del>$200.00</del></p>
                     <div className="rating">
                         <ul>
@@ -936,7 +936,7 @@ const Slider = () => {
                     <div className="product-card-content">
                       <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Julitte armand
                           shampoo</a></Link></h6>
-                      <p><Link legacyBehavior href="/shop"><a>REVLON</a></Link></p>
+                      <p><Link legacyBehavior href="/"><a>REVLON</a></Link></p>
                       <p className="price">$79.00 <del>$150.00</del></p>
                       <div className="rating">
                         <ul>
@@ -996,7 +996,7 @@ const Slider = () => {
                       <h6><Link legacyBehavior href="/shop/product-default">
                         <a  className="hover-underline">new Sleepy Dusch
                           gel</a></Link></h6>
-                      <p><Link legacyBehavior href="/shop"><a>Sleepy</a></Link></p>
+                      <p><Link legacyBehavior href="/"><a>Sleepy</a></Link></p>
                       <p className="price">$67.00 <del>$150.00</del></p>
                       <div className="rating">
                         <ul>
@@ -1055,7 +1055,7 @@ const Slider = () => {
                     <div className="product-card-content">
                       <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Organic Surface
                           Cleaner</a></Link></h6>
-                      <p><Link legacyBehavior href="/shop"><a>mitzie</a></Link></p>
+                      <p><Link legacyBehavior href="/"><a>mitzie</a></Link></p>
                       <p className="price">$51.00 <del>$150.00</del></p>
                       <div className="rating">
                         <ul>
@@ -1112,7 +1112,7 @@ const Slider = () => {
                     <div className="product-card-content">
                       <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">hydra formula
                           conditional</a></Link></h6>
-                      <p><Link legacyBehavior href="/shop"><a>the hair shop</a></Link></p>
+                      <p><Link legacyBehavior href="/"><a>the hair shop</a></Link></p>
                       <p className="price">$220.00</p>
                       <div className="rating">
                         <ul>
@@ -1172,7 +1172,7 @@ const Slider = () => {
                       <h6><Link legacyBehavior href="/shop/product-default">
                         <a  className="hover-underline">Botanical hair
                           Shampoo </a></Link></h6>
-                      <p><Link legacyBehavior href="/shop"><a>Radiant Vibe</a></Link></p>
+                      <p><Link legacyBehavior href="/"><a>Radiant Vibe</a></Link></p>
                       <p className="price">$145.00 <del>$200.00</del></p>
                       <div className="rating">
                         <ul>
@@ -1231,7 +1231,7 @@ const Slider = () => {
                     <div className="product-card-content">
                       <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">huile de Hemp seed
                           oil</a></Link></h6>
-                      <p><Link legacyBehavior href="/shop"><a>Enchantia</a></Link></p>
+                      <p><Link legacyBehavior href="/"><a>Enchantia</a></Link></p>
                       <p className="price">$125.00</p>
                       <div className="rating">
                         <ul>
@@ -1313,7 +1313,7 @@ const Slider = () => {
                           Stain.
                         </a>
                         </Link></h6>
-                      <p><Link legacyBehavior href="/shop">velvet</Link></p>
+                      <p><Link legacyBehavior href="/">velvet</Link></p>
                       <p className="price">$42.00 <del>$150.00</del></p>
                       <div className="rating">
                         <ul>
@@ -1374,7 +1374,7 @@ const Slider = () => {
                           Stain.  
                         </a>
                         </Link></h6>
-                      <p><Link legacyBehavior href="/shop">Celestial</Link></p>
+                      <p><Link legacyBehavior href="/">Celestial</Link></p>
                       <p className="price">$67.00 <del>$150.00</del></p>
                       <div className="rating">
                         <ul>
@@ -1432,7 +1432,7 @@ const Slider = () => {
                       <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Hydrating Pink Lip
                           Stain.</a>
                       </Link></h6>
-                      <p><Link legacyBehavior href="/shop"><a>Aurora Belle</a></Link></p>
+                      <p><Link legacyBehavior href="/"><a>Aurora Belle</a></Link></p>
                       <p className="price">$51.00 <del>$150.00</del></p>
                       <div className="rating">
                         <ul>
@@ -1491,7 +1491,7 @@ const Slider = () => {
                           Stain.
                         </a>
                           </Link></h6>
-                      <p><Link legacyBehavior href="/shop">Luxe Amore</Link></p>
+                      <p><Link legacyBehavior href="/">Luxe Amore</Link></p>
                       <p className="price">$220.00</p>
                       <div className="rating">
                         <ul>
@@ -1551,7 +1551,7 @@ const Slider = () => {
                         Botanical hair
                           Shampoo</a>
                         </Link></h6>
-                      <p><Link legacyBehavior href="/shop"><a>Radiant Vibe</a></Link></p>
+                      <p><Link legacyBehavior href="/"><a>Radiant Vibe</a></Link></p>
                       <p className="price">$145.00 <del>$200.00</del></p>
                       <div className="rating">
                         <ul>
@@ -1608,7 +1608,7 @@ const Slider = () => {
                     <div className="product-card-content">
                       <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">huile de Hemp seed
                           oil</a></Link></h6>
-                      <p><Link legacyBehavior href="/shop">Enchantia</Link></p>
+                      <p><Link legacyBehavior href="/">Enchantia</Link></p>
                       <p className="price">$125.00</p>
                       <div className="rating">
                         <ul>

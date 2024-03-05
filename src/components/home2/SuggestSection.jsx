@@ -61,7 +61,7 @@ const SuggestSection = () => {
                         <span>NEW</span>
                       </div>
                       <div className="product-card-img">
-                        <Link legacyBehavior href="/shop">
+                        <Link legacyBehavior href="/">
                           <a>
                           <img src="/assets/img/home2/product-img-9.png" alt="" />
                           </a>
@@ -98,7 +98,7 @@ const SuggestSection = () => {
                         </div>
                       </div>
                       <div className="product-card-content">
-                        <p><Link legacyBehavior href="/shop"><a>Crystal Gleam</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Crystal Gleam</a></Link></p>
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Crystal-Infused Highlighter</a></Link></h6>
                         <span>$150.00 <del>$200.00</del></span>
                         <div className="rating">
@@ -120,7 +120,7 @@ const SuggestSection = () => {
                         <span>NEW</span>
                       </div>
                       <div className="product-card-img double-img">
-                        <Link legacyBehavior href="/shop">
+                        <Link legacyBehavior href="/">
                           <a>
                           <img src="/assets/img/home2/product-img-10.png" alt="" className="img1" />
                           <img src="/assets/img/home2/product-img-13.png" alt="" className="img2" />
@@ -158,7 +158,7 @@ const SuggestSection = () => {
                         </div>
                       </div>
                       <div className="product-card-content">
-                        <p><Link legacyBehavior href="/shop"><a>Enchanted</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Enchanted</a></Link></p>
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Magical Eyelash Extensions</a></Link></h6>
                         <span>$172.00 <del>$200.00</del></span>
                         <div className="rating">
@@ -186,7 +186,7 @@ const SuggestSection = () => {
                             <span>Hot</span>
                           </div>
                           <div className="product-card-img">
-                            <Link legacyBehavior href="/shop">
+                            <Link legacyBehavior href="/">
                               <a>
                               <img src="/assets/img/home2/suggest-slider-img-1.png" alt="" />
                               </a>
@@ -218,7 +218,7 @@ const SuggestSection = () => {
                             </div>
                           </div>
                           <div className="product-card-content">
-                            <p><Link legacyBehavior href="/shop"><a>Harmony</a></Link></p>
+                            <p><Link legacyBehavior href="/"><a>Harmony</a></Link></p>
                             <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Nourishing Hand Cream</a></Link>
                             </h6>
                             <span>$229.00 <del>$250.00</del></span>
@@ -258,7 +258,7 @@ const SuggestSection = () => {
                                 <li data-seconds={seconds}>{seconds}</li>
                               </ul>
                             </div>
-                            <Link legacyBehavior href="/shop">
+                            <Link legacyBehavior href="/">
                               <a  className="primary-btn3 black-bg hover-btn5 hover-white">
                               Buy Now
                               </a>
@@ -272,7 +272,7 @@ const SuggestSection = () => {
                             <span>NEW</span>
                           </div>
                           <div className="product-card-img">
-                            <Link legacyBehavior href="/shop">
+                            <Link legacyBehavior href="/">
                               <a>
                               <img src="/assets/img/home2/suggest-slider-img-2.png" alt="" />
                               </a>
@@ -302,7 +302,7 @@ const SuggestSection = () => {
                             </div>
                           </div>
                           <div className="product-card-content">
-                            <p><Link legacyBehavior href="/shop"><a>Sea Breeze</a></Link></p>
+                            <p><Link legacyBehavior href="/"><a>Sea Breeze</a></Link></p>
                             <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Timeless Amber Essence</a></Link>
                             </h6>
                             <span>$220.00 <del>$250.00</del></span>
@@ -342,7 +342,7 @@ const SuggestSection = () => {
                                 <li data-seconds={seconds}>{seconds}</li>
                               </ul>
                             </div>
-                            <Link legacyBehavior href="/shop">
+                            <Link legacyBehavior href="/">
                               <a  className="primary-btn3 black-bg hover-btn5 hover-white">
                               Buy Now
                               </a>
@@ -356,7 +356,7 @@ const SuggestSection = () => {
                             <span>Hot</span>
                           </div>
                           <div className="product-card-img">
-                            <Link legacyBehavior href="/shop">
+                            <Link legacyBehavior href="/">
                               <a>
                               <img src="/assets/img/home2/suggest-slider-img-3.png" alt="" />
                               </a>
@@ -386,7 +386,7 @@ const SuggestSection = () => {
                             </div>
                           </div>
                           <div className="product-card-content">
-                            <p><Link legacyBehavior href="/shop"><a>Radiance</a></Link></p>
+                            <p><Link legacyBehavior href="/"><a>Radiance</a></Link></p>
                             <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Mystic Woods Aroma</a></Link></h6>
                             <span>$225.00 <del>$250.00</del></span>
                             <div className="rating">
@@ -425,7 +425,7 @@ const SuggestSection = () => {
                                 <li data-seconds={seconds}>{seconds}</li>
                               </ul>
                             </div>
-                            <Link legacyBehavior href="/shop">
+                            <Link legacyBehavior href="/">
                               <a  className="primary-btn3 black-bg hover-btn5 hover-white">
                               Buy Now
                               </a>
@@ -439,7 +439,7 @@ const SuggestSection = () => {
                             <span>Hot</span>
                           </div>
                           <div className="product-card-img">
-                            <Link legacyBehavior href="/shop">
+                            <Link legacyBehavior href="/">
                               <a>
                               <img src="/assets/img/home2/suggest-slider-img-4.png" alt="" />
                               </a>
@@ -469,7 +469,7 @@ const SuggestSection = () => {
                             </div>
                           </div>
                           <div className="product-card-content">
-                            <p><Link legacyBehavior href="/shop"><a>Radiant</a></Link></p>
+                            <p><Link legacyBehavior href="/"><a>Radiant</a></Link></p>
                             <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Metallic Magic Hues</a></Link></h6>
                             <span>$210.00 <del>$250.00</del></span>
                             <div className="rating">
@@ -508,7 +508,7 @@ const SuggestSection = () => {
                                 <li data-seconds={seconds}>{seconds}</li>
                               </ul>
                             </div>
-                            <Link legacyBehavior href="/shop">
+                            <Link legacyBehavior href="/">
                               <a  className="primary-btn3 black-bg hover-btn5 hover-white">
                               Buy Now
                               </a>
@@ -536,7 +536,7 @@ const SuggestSection = () => {
                         <span>NEW</span>
                       </div>
                       <div className="product-card-img double-img">
-                        <Link legacyBehavior href="/shop">
+                        <Link legacyBehavior href="/">
                           <a>
                           <img src="/assets/img/home2/product-img-11.png" alt="" className="img1" />
                           <img src="/assets/img/home2/product-img-8.png" alt="" className="img2" />
@@ -574,7 +574,7 @@ const SuggestSection = () => {
                         </div>
                       </div>
                       <div className="product-card-content">
-                        <p><Link legacyBehavior href="/shop"><a>Pure Bliss</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Pure Bliss</a></Link></p>
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Lip Stain &amp; Makeup box</a></Link></h6>
                         <span>$190.00 <del>$200.00</del></span>
                         <div className="rating">
@@ -596,7 +596,7 @@ const SuggestSection = () => {
                         <span>NEW</span>
                       </div>
                       <div className="product-card-img">
-                        <Link legacyBehavior href="/shop">
+                        <Link legacyBehavior href="/">
                           <a>
                           <img src="/assets/img/home2/product-img-12.png" alt="" />
                           </a>
@@ -633,7 +633,7 @@ const SuggestSection = () => {
                         </div>
                       </div>
                       <div className="product-card-content">
-                        <p><Link legacyBehavior href="/shop"><a>Whispering</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Whispering</a></Link></p>
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Floral new Perfume Mist</a></Link></h6>
                         <span>$165.00 <del>$200.00</del></span>
                         <div className="rating">
@@ -663,7 +663,7 @@ const SuggestSection = () => {
                         <span>NEW</span>
                       </div>
                       <div className="product-card-img">
-                        <Link legacyBehavior href="/shop">
+                        <Link legacyBehavior href="/">
                           <a>
                           <img src="/assets/img/home2/product-img-9.png" alt="" />
                           </a>
@@ -700,7 +700,7 @@ const SuggestSection = () => {
                         </div>
                       </div>
                       <div className="product-card-content">
-                        <p><Link legacyBehavior href="/shop"><a>Crystal Gleam</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Crystal Gleam</a></Link></p>
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Crystal-Infused Highlighter</a></Link></h6>
                         <span>$150.00 <del>$200.00</del></span>
                         <div className="rating">
@@ -722,7 +722,7 @@ const SuggestSection = () => {
                         <span>NEW</span>
                       </div>
                       <div className="product-card-img double-img">
-                        <Link legacyBehavior href="/shop">
+                        <Link legacyBehavior href="/">
                           <a>
                           <img src="/assets/img/home2/product-img-10.png" alt="" className="img1" />
                           <img src="/assets/img/home2/product-img-13.png" alt="" className="img2" />
@@ -760,7 +760,7 @@ const SuggestSection = () => {
                         </div>
                       </div>
                       <div className="product-card-content">
-                        <p><Link legacyBehavior href="/shop"><a>Enchanted</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Enchanted</a></Link></p>
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Magical Eyelash Extensions</a></Link></h6>
                         <span>$172.00 <del>$200.00</del></span>
                         <div className="rating">
@@ -788,7 +788,7 @@ const SuggestSection = () => {
                             <span>Hot</span>
                           </div>
                           <div className="product-card-img">
-                            <Link legacyBehavior href="/shop">
+                            <Link legacyBehavior href="/">
                               <a>
                               <img src="/assets/img/home2/suggest-slider-img-1.png" alt="" />
                               </a>
@@ -818,7 +818,7 @@ const SuggestSection = () => {
                             </div>
                           </div>
                           <div className="product-card-content">
-                            <p><Link legacyBehavior href="/shop"><a>Harmony</a></Link></p>
+                            <p><Link legacyBehavior href="/"><a>Harmony</a></Link></p>
                             <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Nourishing Hand Cream</a></Link>
                             </h6>
                             <span>$229.00 <del>$250.00</del></span>
@@ -858,7 +858,7 @@ const SuggestSection = () => {
                                 <li data-seconds={seconds}>{seconds}</li>
                               </ul>
                             </div>
-                            <Link legacyBehavior href="/shop">
+                            <Link legacyBehavior href="/">
                               <a  className="primary-btn3 black-bg hover-btn5 hover-white">
                               Buy Now
                               </a>
@@ -872,7 +872,7 @@ const SuggestSection = () => {
                             <span>NEW</span>
                           </div>
                           <div className="product-card-img">
-                            <Link legacyBehavior href="/shop">
+                            <Link legacyBehavior href="/">
                               <a>
                               <img src="/assets/img/home2/suggest-slider-img-2.png" alt="" />
                               </a>
@@ -902,7 +902,7 @@ const SuggestSection = () => {
                             </div>
                           </div>
                           <div className="product-card-content">
-                            <p><Link legacyBehavior href="/shop"><a>Sea Breeze</a></Link></p>
+                            <p><Link legacyBehavior href="/"><a>Sea Breeze</a></Link></p>
                             <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Timeless Amber Essence</a></Link>
                             </h6>
                             <span>$220.00 <del>$250.00</del></span>
@@ -942,7 +942,7 @@ const SuggestSection = () => {
                                 <li data-seconds={seconds}>{seconds}</li>
                               </ul>
                             </div>
-                            <Link legacyBehavior href="/shop">
+                            <Link legacyBehavior href="/">
                               <a  className="primary-btn3 black-bg hover-btn5 hover-white">
                               Buy Now
                               </a>
@@ -956,7 +956,7 @@ const SuggestSection = () => {
                             <span>Hot</span>
                           </div>
                           <div className="product-card-img">
-                            <Link legacyBehavior href="/shop">
+                            <Link legacyBehavior href="/">
                               <a>
                               <img src="/assets/img/home2/suggest-slider-img-3.png" alt="" />
                               </a>
@@ -986,7 +986,7 @@ const SuggestSection = () => {
                             </div>
                           </div>
                           <div className="product-card-content">
-                            <p><Link legacyBehavior href="/shop"><a>Radiance</a></Link></p>
+                            <p><Link legacyBehavior href="/"><a>Radiance</a></Link></p>
                             <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Mystic Woods Aroma</a></Link></h6>
                             <span>$225.00 <del>$250.00</del></span>
                             <div className="rating">
@@ -1025,7 +1025,7 @@ const SuggestSection = () => {
                                 <li data-seconds={seconds}>{seconds}</li>
                               </ul>
                             </div>
-                            <Link legacyBehavior href="/shop">
+                            <Link legacyBehavior href="/">
                               <a  className="primary-btn3 black-bg hover-btn5 hover-white">
                               Buy Now
                               </a>
@@ -1039,7 +1039,7 @@ const SuggestSection = () => {
                             <span>Hot</span>
                           </div>
                           <div className="product-card-img">
-                            <Link legacyBehavior href="/shop">
+                            <Link legacyBehavior href="/">
                               <a>
                               <img src="/assets/img/home2/suggest-slider-img-4.png" alt="" />
                               </a>
@@ -1069,7 +1069,7 @@ const SuggestSection = () => {
                             </div>
                           </div>
                           <div className="product-card-content">
-                            <p><Link legacyBehavior href="/shop"><a>Radiant</a></Link></p>
+                            <p><Link legacyBehavior href="/"><a>Radiant</a></Link></p>
                             <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Metallic Magic Hues</a></Link></h6>
                             <span>$210.00 <del>$250.00</del></span>
                             <div className="rating">
@@ -1108,7 +1108,7 @@ const SuggestSection = () => {
                                 <li data-seconds={seconds}>{seconds}</li>
                               </ul>
                             </div>
-                            <Link legacyBehavior href="/shop">
+                            <Link legacyBehavior href="/">
                               <a  className="primary-btn3 black-bg hover-btn5 hover-white">
                               Buy Now
                               </a>
@@ -1136,7 +1136,7 @@ const SuggestSection = () => {
                         <span>NEW</span>
                       </div>
                       <div className="product-card-img double-img">
-                        <Link legacyBehavior href="/shop">
+                        <Link legacyBehavior href="/">
                           <a>
                           <img src="/assets/img/home2/product-img-11.png" alt="" className="img1" />
                           <img src="/assets/img/home2/product-img-8.png" alt="" className="img2" />
@@ -1174,7 +1174,7 @@ const SuggestSection = () => {
                         </div>
                       </div>
                       <div className="product-card-content">
-                        <p><Link legacyBehavior href="/shop"><a>Pure Bliss</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Pure Bliss</a></Link></p>
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Lip Stain &amp; Makeup box</a></Link></h6>
                         <span>$190.00 <del>$200.00</del></span>
                         <div className="rating">
@@ -1196,7 +1196,7 @@ const SuggestSection = () => {
                         <span>NEW</span>
                       </div>
                       <div className="product-card-img">
-                        <Link legacyBehavior href="/shop">
+                        <Link legacyBehavior href="/">
                           <a>
                           <img src="/assets/img/home2/product-img-12.png" alt="" />
                           </a>
@@ -1233,7 +1233,7 @@ const SuggestSection = () => {
                         </div>
                       </div>
                       <div className="product-card-content">
-                        <p><Link legacyBehavior href="/shop"><a>Whispering</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Whispering</a></Link></p>
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Floral new Perfume Mist</a></Link></h6>
                         <span>$165.00 <del>$200.00</del></span>
                         <div className="rating">
@@ -1263,7 +1263,7 @@ const SuggestSection = () => {
                         <span>NEW</span>
                       </div>
                       <div className="product-card-img">
-                        <Link legacyBehavior href="/shop">
+                        <Link legacyBehavior href="/">
                           <a>
                           <img src="/assets/img/home2/product-img-9.png" alt="" />
                           </a>
@@ -1300,7 +1300,7 @@ const SuggestSection = () => {
                         </div>
                       </div>
                       <div className="product-card-content">
-                        <p><Link legacyBehavior href="/shop"><a>Crystal Gleam</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Crystal Gleam</a></Link></p>
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Crystal-Infused Highlighter</a></Link></h6>
                         <span>$150.00 <del>$200.00</del></span>
                         <div className="rating">
@@ -1322,7 +1322,7 @@ const SuggestSection = () => {
                         <span>NEW</span>
                       </div>
                       <div className="product-card-img double-img">
-                        <Link legacyBehavior href="/shop">
+                        <Link legacyBehavior href="/">
                           <a>
                           <img src="/assets/img/home2/product-img-10.png" alt="" className="img1" />
                           <img src="/assets/img/home2/product-img-13.png" alt="" className="img2" />
@@ -1360,7 +1360,7 @@ const SuggestSection = () => {
                         </div>
                       </div>
                       <div className="product-card-content">
-                        <p><Link legacyBehavior href="/shop"><a>Enchanted</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Enchanted</a></Link></p>
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Magical Eyelash Extensions</a></Link></h6>
                         <span>$172.00 <del>$200.00</del></span>
                         <div className="rating">
@@ -1388,7 +1388,7 @@ const SuggestSection = () => {
                             <span>Hot</span>
                           </div>
                           <div className="product-card-img">
-                            <Link legacyBehavior href="/shop">
+                            <Link legacyBehavior href="/">
                               <a>
                               <img src="/assets/img/home2/suggest-slider-img-1.png" alt="" />
                               </a>
@@ -1418,7 +1418,7 @@ const SuggestSection = () => {
                             </div>
                           </div>
                           <div className="product-card-content">
-                            <p><Link legacyBehavior href="/shop"><a>Harmony</a></Link></p>
+                            <p><Link legacyBehavior href="/"><a>Harmony</a></Link></p>
                             <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Nourishing Hand Cream</a></Link>
                             </h6>
                             <span>$229.00 <del>$250.00</del></span>
@@ -1458,7 +1458,7 @@ const SuggestSection = () => {
                                 <li data-seconds={seconds}>{seconds}</li>
                               </ul>
                             </div>
-                            <Link legacyBehavior href="/shop">
+                            <Link legacyBehavior href="/">
                               <a  className="primary-btn3 black-bg hover-btn5 hover-white">
                               Buy Now
                               </a>
@@ -1472,7 +1472,7 @@ const SuggestSection = () => {
                             <span>NEW</span>
                           </div>
                           <div className="product-card-img">
-                            <Link legacyBehavior href="/shop">
+                            <Link legacyBehavior href="/">
                               <a>
                               <img src="/assets/img/home2/suggest-slider-img-2.png" alt="" />
                               </a>
@@ -1502,7 +1502,7 @@ const SuggestSection = () => {
                             </div>
                           </div>
                           <div className="product-card-content">
-                            <p><Link legacyBehavior href="/shop"><a>Sea Breeze</a></Link></p>
+                            <p><Link legacyBehavior href="/"><a>Sea Breeze</a></Link></p>
                             <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Timeless Amber Essence</a></Link>
                             </h6>
                             <span>$220.00 <del>$250.00</del></span>
@@ -1542,7 +1542,7 @@ const SuggestSection = () => {
                                 <li data-seconds={seconds}>{seconds}</li>
                               </ul>
                             </div>
-                            <Link legacyBehavior href="/shop">
+                            <Link legacyBehavior href="/">
                               <a  className="primary-btn3 black-bg hover-btn5 hover-white">
                               Buy Now
                               </a>
@@ -1556,7 +1556,7 @@ const SuggestSection = () => {
                             <span>Hot</span>
                           </div>
                           <div className="product-card-img">
-                            <Link legacyBehavior href="/shop">
+                            <Link legacyBehavior href="/">
                               <a>
                               <img src="/assets/img/home2/suggest-slider-img-3.png" alt="" />
                               </a>
@@ -1586,7 +1586,7 @@ const SuggestSection = () => {
                             </div>
                           </div>
                           <div className="product-card-content">
-                            <p><Link legacyBehavior href="/shop"><a>Radiance</a></Link></p>
+                            <p><Link legacyBehavior href="/"><a>Radiance</a></Link></p>
                             <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Mystic Woods Aroma</a></Link></h6>
                             <span>$225.00 <del>$250.00</del></span>
                             <div className="rating">
@@ -1625,7 +1625,7 @@ const SuggestSection = () => {
                                 <li data-seconds={seconds}>{seconds}</li>
                               </ul>
                             </div>
-                            <Link legacyBehavior href="/shop">
+                            <Link legacyBehavior href="/">
                               <a  className="primary-btn3 black-bg hover-btn5 hover-white">
                               Buy Now
                               </a>
@@ -1639,7 +1639,7 @@ const SuggestSection = () => {
                             <span>Hot</span>
                           </div>
                           <div className="product-card-img">
-                            <Link legacyBehavior href="/shop">
+                            <Link legacyBehavior href="/">
                               <a>
                               <img src="/assets/img/home2/suggest-slider-img-4.png" alt="" />
                               </a>
@@ -1669,7 +1669,7 @@ const SuggestSection = () => {
                             </div>
                           </div>
                           <div className="product-card-content">
-                            <p><Link legacyBehavior href="/shop"><a>Radiant</a></Link></p>
+                            <p><Link legacyBehavior href="/"><a>Radiant</a></Link></p>
                             <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Metallic Magic Hues</a></Link></h6>
                             <span>$210.00 <del>$250.00</del></span>
                             <div className="rating">
@@ -1708,7 +1708,7 @@ const SuggestSection = () => {
                                 <li data-seconds={seconds}>{seconds}</li>
                               </ul>
                             </div>
-                            <Link legacyBehavior href="/shop">
+                            <Link legacyBehavior href="/">
                               <a  className="primary-btn3 black-bg hover-btn5 hover-white">
                               Buy Now
                               </a>
@@ -1736,7 +1736,7 @@ const SuggestSection = () => {
                         <span>NEW</span>
                       </div>
                       <div className="product-card-img double-img">
-                        <Link legacyBehavior href="/shop">
+                        <Link legacyBehavior href="/">
                           <a>
                           <img src="/assets/img/home2/product-img-11.png" alt="" className="img1" />
                           <img src="/assets/img/home2/product-img-8.png" alt="" className="img2" />
@@ -1774,7 +1774,7 @@ const SuggestSection = () => {
                         </div>
                       </div>
                       <div className="product-card-content">
-                        <p><Link legacyBehavior href="/shop"><a>Pure Bliss</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Pure Bliss</a></Link></p>
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Lip Stain &amp; Makeup box</a></Link></h6>
                         <span>$190.00 <del>$200.00</del></span>
                         <div className="rating">
@@ -1796,7 +1796,7 @@ const SuggestSection = () => {
                         <span>NEW</span>
                       </div>
                       <div className="product-card-img">
-                        <Link legacyBehavior href="/shop">
+                        <Link legacyBehavior href="/">
                           <a>
                           <img src="/assets/img/home2/product-img-12.png" alt="" />
                           </a>
@@ -1833,7 +1833,7 @@ const SuggestSection = () => {
                         </div>
                       </div>
                       <div className="product-card-content">
-                        <p><Link legacyBehavior href="/shop"><a>Whispering</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Whispering</a></Link></p>
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Floral new Perfume Mist</a></Link></h6>
                         <span>$165.00 <del>$200.00</del></span>
                         <div className="rating">
@@ -1863,7 +1863,7 @@ const SuggestSection = () => {
                         <span>NEW</span>
                       </div>
                       <div className="product-card-img">
-                        <Link legacyBehavior href="/shop">
+                        <Link legacyBehavior href="/">
                           <a>
                           <img src="/assets/img/home2/product-img-9.png" alt="" />
                           </a>
@@ -1900,7 +1900,7 @@ const SuggestSection = () => {
                         </div>
                       </div>
                       <div className="product-card-content">
-                        <p><Link legacyBehavior href="/shop"><a>Crystal Gleam</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Crystal Gleam</a></Link></p>
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Crystal-Infused Highlighter</a></Link></h6>
                         <span>$150.00 <del>$200.00</del></span>
                         <div className="rating">
@@ -1922,7 +1922,7 @@ const SuggestSection = () => {
                         <span>NEW</span>
                       </div>
                       <div className="product-card-img double-img">
-                        <Link legacyBehavior href="/shop">
+                        <Link legacyBehavior href="/">
                           <a>
                           <img src="/assets/img/home2/product-img-10.png" alt="" className="img1" />
                           <img src="/assets/img/home2/product-img-13.png" alt="" className="img2" />
@@ -1960,7 +1960,7 @@ const SuggestSection = () => {
                         </div>
                       </div>
                       <div className="product-card-content">
-                        <p><Link legacyBehavior href="/shop"><a>Enchanted</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Enchanted</a></Link></p>
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Magical Eyelash Extensions</a></Link></h6>
                         <span>$172.00 <del>$200.00</del></span>
                         <div className="rating">
@@ -1988,7 +1988,7 @@ const SuggestSection = () => {
                             <span>Hot</span>
                           </div>
                           <div className="product-card-img">
-                            <Link legacyBehavior href="/shop">
+                            <Link legacyBehavior href="/">
                               <a>
                               <img src="/assets/img/home2/suggest-slider-img-1.png" alt="" />
                               </a>
@@ -2018,7 +2018,7 @@ const SuggestSection = () => {
                             </div>
                           </div>
                           <div className="product-card-content">
-                            <p><Link legacyBehavior href="/shop"><a>Harmony</a></Link></p>
+                            <p><Link legacyBehavior href="/"><a>Harmony</a></Link></p>
                             <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Nourishing Hand Cream</a></Link>
                             </h6>
                             <span>$229.00 <del>$250.00</del></span>
@@ -2058,7 +2058,7 @@ const SuggestSection = () => {
                                 <li data-seconds={seconds}>{seconds}</li>
                               </ul>
                             </div>
-                            <Link legacyBehavior href="/shop">
+                            <Link legacyBehavior href="/">
                               <a  className="primary-btn3 black-bg hover-btn5 hover-white">
                               Buy Now
                               </a>
@@ -2072,7 +2072,7 @@ const SuggestSection = () => {
                             <span>NEW</span>
                           </div>
                           <div className="product-card-img">
-                            <Link legacyBehavior href="/shop">
+                            <Link legacyBehavior href="/">
                               <a>
                               <img src="/assets/img/home2/suggest-slider-img-2.png" alt="" />
                               </a>
@@ -2102,7 +2102,7 @@ const SuggestSection = () => {
                             </div>
                           </div>
                           <div className="product-card-content">
-                            <p><Link legacyBehavior href="/shop"><a>Sea Breeze</a></Link></p>
+                            <p><Link legacyBehavior href="/"><a>Sea Breeze</a></Link></p>
                             <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Timeless Amber Essence</a></Link>
                             </h6>
                             <span>$220.00 <del>$250.00</del></span>
@@ -2142,7 +2142,7 @@ const SuggestSection = () => {
                                 <li data-seconds={seconds}>{seconds}</li>
                               </ul>
                             </div>
-                            <Link legacyBehavior href="/shop">
+                            <Link legacyBehavior href="/">
                               <a  className="primary-btn3 black-bg hover-btn5 hover-white">
                               Buy Now
                               </a>
@@ -2156,7 +2156,7 @@ const SuggestSection = () => {
                             <span>Hot</span>
                           </div>
                           <div className="product-card-img">
-                            <Link legacyBehavior href="/shop">
+                            <Link legacyBehavior href="/">
                               <a>
                               <img src="/assets/img/home2/suggest-slider-img-3.png" alt="" />
                               </a>
@@ -2186,7 +2186,7 @@ const SuggestSection = () => {
                             </div>
                           </div>
                           <div className="product-card-content">
-                            <p><Link legacyBehavior href="/shop"><a>Radiance</a></Link></p>
+                            <p><Link legacyBehavior href="/"><a>Radiance</a></Link></p>
                             <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Mystic Woods Aroma</a></Link></h6>
                             <span>$225.00 <del>$250.00</del></span>
                             <div className="rating">
@@ -2225,7 +2225,7 @@ const SuggestSection = () => {
                                 <li data-seconds={seconds}>{seconds}</li>
                               </ul>
                             </div>
-                            <Link legacyBehavior href="/shop">
+                            <Link legacyBehavior href="/">
                               <a  className="primary-btn3 black-bg hover-btn5 hover-white">
                               Buy Now
                               </a>
@@ -2239,7 +2239,7 @@ const SuggestSection = () => {
                             <span>Hot</span>
                           </div>
                           <div className="product-card-img">
-                            <Link legacyBehavior href="/shop">
+                            <Link legacyBehavior href="/">
                               <a>
                               <img src="/assets/img/home2/suggest-slider-img-4.png" alt="" />
                               </a>
@@ -2269,7 +2269,7 @@ const SuggestSection = () => {
                             </div>
                           </div>
                           <div className="product-card-content">
-                            <p><Link legacyBehavior href="/shop"><a>Radiant</a></Link></p>
+                            <p><Link legacyBehavior href="/"><a>Radiant</a></Link></p>
                             <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Metallic Magic Hues</a></Link></h6>
                             <span>$210.00 <del>$250.00</del></span>
                             <div className="rating">
@@ -2308,7 +2308,7 @@ const SuggestSection = () => {
                                 <li data-seconds={seconds}>{seconds}</li>
                               </ul>
                             </div>
-                            <Link legacyBehavior href="/shop">
+                            <Link legacyBehavior href="/">
                               <a  className="primary-btn3 black-bg hover-btn5 hover-white">
                               Buy Now
                               </a>
@@ -2336,7 +2336,7 @@ const SuggestSection = () => {
                         <span>NEW</span>
                       </div>
                       <div className="product-card-img double-img">
-                        <Link legacyBehavior href="/shop">
+                        <Link legacyBehavior href="/">
                           <a>
                           <img src="/assets/img/home2/product-img-11.png" alt="" className="img1" />
                           <img src="/assets/img/home2/product-img-8.png" alt="" className="img2" />
@@ -2374,7 +2374,7 @@ const SuggestSection = () => {
                         </div>
                       </div>
                       <div className="product-card-content">
-                        <p><Link legacyBehavior href="/shop"><a>Pure Bliss</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Pure Bliss</a></Link></p>
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Lip Stain &amp; Makeup box</a></Link></h6>
                         <span>$190.00 <del>$200.00</del></span>
                         <div className="rating">
@@ -2396,7 +2396,7 @@ const SuggestSection = () => {
                         <span>NEW</span>
                       </div>
                       <div className="product-card-img">
-                        <Link legacyBehavior href="/shop">
+                        <Link legacyBehavior href="/">
                           <a>
                           <img src="/assets/img/home2/product-img-12.png" alt="" />
                           </a>
@@ -2433,7 +2433,7 @@ const SuggestSection = () => {
                         </div>
                       </div>
                       <div className="product-card-content">
-                        <p><Link legacyBehavior href="/shop"><a>Whispering</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Whispering</a></Link></p>
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Floral new Perfume Mist</a></Link></h6>
                         <span>$165.00 <del>$200.00</del></span>
                         <div className="rating">
@@ -2463,7 +2463,7 @@ const SuggestSection = () => {
                         <span>NEW</span>
                       </div>
                       <div className="product-card-img">
-                        <Link legacyBehavior href="/shop">
+                        <Link legacyBehavior href="/">
                           <a>
                           <img src="/assets/img/home2/product-img-9.png" alt="" />
                           </a>
@@ -2500,7 +2500,7 @@ const SuggestSection = () => {
                         </div>
                       </div>
                       <div className="product-card-content">
-                        <p><Link legacyBehavior href="/shop"><a>Crystal Gleam</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Crystal Gleam</a></Link></p>
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Crystal-Infused Highlighter</a></Link></h6>
                         <span>$150.00 <del>$200.00</del></span>
                         <div className="rating">
@@ -2522,7 +2522,7 @@ const SuggestSection = () => {
                         <span>NEW</span>
                       </div>
                       <div className="product-card-img double-img">
-                        <Link legacyBehavior href="/shop">
+                        <Link legacyBehavior href="/">
                           <a>
                           <img src="/assets/img/home2/product-img-10.png" alt="" className="img1" />
                           <img src="/assets/img/home2/product-img-13.png" alt="" className="img2" />
@@ -2560,7 +2560,7 @@ const SuggestSection = () => {
                         </div>
                       </div>
                       <div className="product-card-content">
-                        <p><Link legacyBehavior href="/shop"><a>Enchanted</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Enchanted</a></Link></p>
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Magical Eyelash Extensions</a></Link></h6>
                         <span>$172.00 <del>$200.00</del></span>
                         <div className="rating">
@@ -2588,7 +2588,7 @@ const SuggestSection = () => {
                             <span>Hot</span>
                           </div>
                           <div className="product-card-img">
-                            <Link legacyBehavior href="/shop">
+                            <Link legacyBehavior href="/">
                               <a>
                               <img src="/assets/img/home2/suggest-slider-img-1.png" alt="" />
                               </a>
@@ -2618,7 +2618,7 @@ const SuggestSection = () => {
                             </div>
                           </div>
                           <div className="product-card-content">
-                            <p><Link legacyBehavior href="/shop"><a>Harmony</a></Link></p>
+                            <p><Link legacyBehavior href="/"><a>Harmony</a></Link></p>
                             <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Nourishing Hand Cream</a></Link>
                             </h6>
                             <span>$229.00 <del>$250.00</del></span>
@@ -2658,7 +2658,7 @@ const SuggestSection = () => {
                                 <li data-seconds={seconds}>{seconds}</li>
                               </ul>
                             </div>
-                            <Link legacyBehavior href="/shop">
+                            <Link legacyBehavior href="/">
                               <a  className="primary-btn3 black-bg hover-btn5 hover-white">
                               Buy Now
                               </a>
@@ -2672,7 +2672,7 @@ const SuggestSection = () => {
                             <span>NEW</span>
                           </div>
                           <div className="product-card-img">
-                            <Link legacyBehavior href="/shop">
+                            <Link legacyBehavior href="/">
                               <a>
                               <img src="/assets/img/home2/suggest-slider-img-2.png" alt="" />
                               </a>
@@ -2702,7 +2702,7 @@ const SuggestSection = () => {
                             </div>
                           </div>
                           <div className="product-card-content">
-                            <p><Link legacyBehavior href="/shop"><a>Sea Breeze</a></Link></p>
+                            <p><Link legacyBehavior href="/"><a>Sea Breeze</a></Link></p>
                             <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Timeless Amber Essence</a></Link>
                             </h6>
                             <span>$220.00 <del>$250.00</del></span>
@@ -2742,7 +2742,7 @@ const SuggestSection = () => {
                                 <li data-seconds={seconds}>{seconds}</li>
                               </ul>
                             </div>
-                            <Link legacyBehavior href="/shop">
+                            <Link legacyBehavior href="/">
                               <a  className="primary-btn3 black-bg hover-btn5 hover-white">
                               Buy Now
                               </a>
@@ -2756,7 +2756,7 @@ const SuggestSection = () => {
                             <span>Hot</span>
                           </div>
                           <div className="product-card-img">
-                            <Link legacyBehavior href="/shop">
+                            <Link legacyBehavior href="/">
                               <a>
                               <img src="/assets/img/home2/suggest-slider-img-3.png" alt="" />
                               </a>
@@ -2786,7 +2786,7 @@ const SuggestSection = () => {
                             </div>
                           </div>
                           <div className="product-card-content">
-                            <p><Link legacyBehavior href="/shop"><a>Radiance</a></Link></p>
+                            <p><Link legacyBehavior href="/"><a>Radiance</a></Link></p>
                             <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Mystic Woods Aroma</a></Link></h6>
                             <span>$225.00 <del>$250.00</del></span>
                             <div className="rating">
@@ -2825,7 +2825,7 @@ const SuggestSection = () => {
                                 <li data-seconds={seconds}>{seconds}</li>
                               </ul>
                             </div>
-                            <Link legacyBehavior href="/shop">
+                            <Link legacyBehavior href="/">
                               <a  className="primary-btn3 black-bg hover-btn5 hover-white">
                               Buy Now
                               </a>
@@ -2839,7 +2839,7 @@ const SuggestSection = () => {
                             <span>Hot</span>
                           </div>
                           <div className="product-card-img">
-                            <Link legacyBehavior href="/shop">
+                            <Link legacyBehavior href="/">
                               <a>
                               <img src="/assets/img/home2/suggest-slider-img-4.png" alt="" />
                               </a>
@@ -2869,7 +2869,7 @@ const SuggestSection = () => {
                             </div>
                           </div>
                           <div className="product-card-content">
-                            <p><Link legacyBehavior href="/shop"><a>Radiant</a></Link></p>
+                            <p><Link legacyBehavior href="/"><a>Radiant</a></Link></p>
                             <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Metallic Magic Hues</a></Link></h6>
                             <span>$210.00 <del>$250.00</del></span>
                             <div className="rating">
@@ -2908,7 +2908,7 @@ const SuggestSection = () => {
                                 <li data-seconds={seconds}>{seconds}</li>
                               </ul>
                             </div>
-                            <Link legacyBehavior href="/shop">
+                            <Link legacyBehavior href="/">
                               <a  className="primary-btn3 black-bg hover-btn5 hover-white">
                               Buy Now
                               </a>
@@ -2936,7 +2936,7 @@ const SuggestSection = () => {
                         <span>NEW</span>
                       </div>
                       <div className="product-card-img double-img">
-                        <Link legacyBehavior href="/shop">
+                        <Link legacyBehavior href="/">
                           <a>
                           <img src="/assets/img/home2/product-img-11.png" alt="" className="img1" />
                           <img src="/assets/img/home2/product-img-8.png" alt="" className="img2" />
@@ -2974,7 +2974,7 @@ const SuggestSection = () => {
                         </div>
                       </div>
                       <div className="product-card-content">
-                        <p><Link legacyBehavior href="/shop"><a>Pure Bliss</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Pure Bliss</a></Link></p>
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Lip Stain &amp; Makeup box</a></Link></h6>
                         <span>$190.00 <del>$200.00</del></span>
                         <div className="rating">
@@ -2996,7 +2996,7 @@ const SuggestSection = () => {
                         <span>NEW</span>
                       </div>
                       <div className="product-card-img">
-                        <Link legacyBehavior href="/shop">
+                        <Link legacyBehavior href="/">
                           <a>
                           <img src="/assets/img/home2/product-img-12.png" alt="" />
                           </a>
@@ -3033,7 +3033,7 @@ const SuggestSection = () => {
                         </div>
                       </div>
                       <div className="product-card-content">
-                        <p><Link legacyBehavior href="/shop"><a>Whispering</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Whispering</a></Link></p>
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Floral new Perfume Mist</a></Link></h6>
                         <span>$165.00 <del>$200.00</del></span>
                         <div className="rating">
@@ -3055,7 +3055,7 @@ const SuggestSection = () => {
           </div>
         </div>
         <div className="view-product-btn text-center">
-          <Link legacyBehavior href="/shop"><a  className="primary-btn3 hover-btn5">view All Product</a></Link>
+          <Link legacyBehavior href="/"><a  className="primary-btn3 hover-btn5">view All Product</a></Link>
         </div>
       </div>
     </div>

@@ -73,7 +73,7 @@ const TopSellingProduct = () => {
                       <span>NEW</span>
                     </div>
                     <div className="product-card-img double-img">
-                      <Link legacyBehavior href="/shop">
+                      <Link legacyBehavior href="/">
                         <a>
                         <img src="/assets/img/home2/product-img-13.png" alt="" className="img1" />
                         <img src="/assets/img/home2/product-img-10.png" alt="" className="img2" />
@@ -111,7 +111,7 @@ const TopSellingProduct = () => {
                       </div>
                     </div>
                     <div className="product-card-content">
-                      <p><Link legacyBehavior href="/shop"><a>Radiant Glow</a></Link></p>
+                      <p><Link legacyBehavior href="/"><a>Radiant Glow</a></Link></p>
                       <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Brightening Vitamin</a></Link></h6>
                       <span>$145.00 <del>$200.00</del></span>
                       <div className="rating">
@@ -133,7 +133,7 @@ const TopSellingProduct = () => {
                       <span>-15%</span>
                     </div>
                     <div className="product-card-img">
-                      <Link legacyBehavior href="/shop">
+                      <Link legacyBehavior href="/">
                         <a>
                         <img src="/assets/img/home2/product-img-14.png" alt="" />
                         </a>
@@ -170,7 +170,7 @@ const TopSellingProduct = () => {
                       </div>
                     </div>
                     <div className="product-card-content">
-                      <p><Link legacyBehavior href="/shop"><a>Silk Glow</a></Link></p>
+                      <p><Link legacyBehavior href="/"><a>Silk Glow</a></Link></p>
                       <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Shimmering Eyeshadow</a></Link></h6>
                       <span>$148.00 <del>$200.00</del></span>
                       <div className="rating">
@@ -192,7 +192,7 @@ const TopSellingProduct = () => {
                       <span>-10%</span>
                     </div>
                     <div className="product-card-img">
-                      <Link legacyBehavior href="/shop">
+                      <Link legacyBehavior href="/">
                         <a>
                         <img src="/assets/img/home2/product-img-15.png" alt="" />
                         </a>
@@ -229,7 +229,7 @@ const TopSellingProduct = () => {
                       </div>
                     </div>
                     <div className="product-card-content">
-                      <p><Link legacyBehavior href="/shop"><a>Crystal Clear</a></Link></p>
+                      <p><Link legacyBehavior href="/"><a>Crystal Clear</a></Link></p>
                       <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Skin Clarifying Cleanser</a></Link></h6>
                       <span>$129.00 <del>$200.00</del></span>
                       <div className="rating">
@@ -251,7 +251,7 @@ const TopSellingProduct = () => {
                       <span>NEW</span>
                     </div>
                     <div className="product-card-img">
-                      <Link legacyBehavior href="/shop">
+                      <Link legacyBehavior href="/">
                       <a>
                         <img src="/assets/img/home2/product-img-16.png" alt="" />
                       </a>
@@ -291,7 +291,7 @@ const TopSellingProduct = () => {
                       </div>
                     </div>
                     <div className="product-card-content">
-                      <p><Link legacyBehavior href="/shop"><a>Lash Luxe</a></Link></p>
+                      <p><Link legacyBehavior href="/"><a>Lash Luxe</a></Link></p>
                       <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Volume Boosting Mascara</a></Link></h6>
                       <span>$117.00 <del>$200.00</del></span>
                       <div className="rating">
@@ -313,7 +313,7 @@ const TopSellingProduct = () => {
                       <span>NEW</span>
                     </div>
                     <div className="product-card-img">
-                      <Link legacyBehavior href="/shop">
+                      <Link legacyBehavior href="/">
                       <a>
                         <img src="/assets/img/home2/product-img-1.png" alt="" />
                       </a>
@@ -350,7 +350,7 @@ const TopSellingProduct = () => {
                       </div>
                     </div>
                     <div className="product-card-content">
-                      <p><Link legacyBehavior href="/shop"><a>Crystal Gleam</a></Link></p>
+                      <p><Link legacyBehavior href="/"><a>Crystal Gleam</a></Link></p>
                       <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Crystal-Infused Highli ghter</a></Link>
                       </h6>
                       <span>$150.00 <del>$200.00</del></span>
@@ -373,7 +373,7 @@ const TopSellingProduct = () => {
                       <span>-15%</span>
                     </div>
                     <div className="product-card-img">
-                      <Link legacyBehavior href="/shop">
+                      <Link legacyBehavior href="/">
                       <a>
                         <img src="/assets/img/home2/product-img-2.png" alt="" />
                       </a>
@@ -410,7 +410,7 @@ const TopSellingProduct = () => {
                       </div>
                     </div>
                     <div className="product-card-content">
-                      <p><Link legacyBehavior href="/shop"><a>Crystal</a></Link></p>
+                      <p><Link legacyBehavior href="/"><a>Crystal</a></Link></p>
                       <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Prism Eyeshadow Palette</a></Link></h6>
                       <span>$170.00 <del>$200.00</del></span>
                       <div className="rating">

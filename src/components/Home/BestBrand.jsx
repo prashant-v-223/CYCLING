@@ -63,7 +63,7 @@ const BestBrand = () => {
                 <div className="swiper-wrapper">
                   <SwiperSlide className="swiper-slide">
                     <div className="brand-icon">
-                      <Link legacyBehavior href="/shop">
+                      <Link legacyBehavior href="/">
                         <a>
                           <img src="/assets/img/home1/brand-logo1.png" alt="" />
                         </a>
@@ -72,7 +72,7 @@ const BestBrand = () => {
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <div className="brand-icon">
-                   <Link legacyBehavior href="/shop">
+                   <Link legacyBehavior href="/">
                         <a>
                           <img src="/assets/img/home1/brand-logo2.png" alt="" />
                         </a>
@@ -81,7 +81,7 @@ const BestBrand = () => {
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <div className="brand-icon">
-                   <Link legacyBehavior href="/shop">
+                   <Link legacyBehavior href="/">
                         <a>
                           <img src="/assets/img/home1/brand-logo3.png" alt="" />
                         </a>
@@ -90,7 +90,7 @@ const BestBrand = () => {
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <div className="brand-icon">
-                   <Link legacyBehavior href="/shop">
+                   <Link legacyBehavior href="/">
                         <a>
                           <img src="/assets/img/home1/brand-logo4.png" alt="" />
                         </a>
@@ -99,7 +99,7 @@ const BestBrand = () => {
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <div className="brand-icon">
-                   <Link legacyBehavior href="/shop">
+                   <Link legacyBehavior href="/">
                         <a>
                           <img src="/assets/img/home1/brand-logo5.png" alt="" />
                         </a>
@@ -108,7 +108,7 @@ const BestBrand = () => {
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <div className="brand-icon">
-                   <Link legacyBehavior href="/shop">
+                   <Link legacyBehavior href="/">
                         <a>
                           <img src="/assets/img/home1/brand-logo6.png" alt="" />
                         </a>
@@ -117,7 +117,7 @@ const BestBrand = () => {
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <div className="brand-icon">
-                   <Link legacyBehavior href="/shop">
+                   <Link legacyBehavior href="/">
                         <a>
                           <img src="/assets/img/home1/brand-logo7.png" alt="" />
                         </a>

@@ -18,7 +18,7 @@ const OurBrandPage = () => {
             {brand.map((e) => {
               return <div className="col" key={e}>
               <div className="client-logo">
-                <Link legacyBehavior href="/shop">
+                <Link legacyBehavior href="/">
                   <a>
                     <img
                       src={`assets/img/inner-page/brnads-logo${e}.png`}

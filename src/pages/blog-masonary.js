@@ -28,7 +28,7 @@ const BlogMasonaryPage = () => {
                           <Link legacyBehavior href="/blog-grid"><a>Beauty</a></Link>
                         </li>
                         <li>
-                          <Link legacyBehavior href="/shop"><a>Makeup</a></Link>
+                          <Link legacyBehavior href="/"><a>Makeup</a></Link>
                         </li>
                         <li>
                           <Link legacyBehavior href="/blog-grid"><a>Health</a></Link>
@@ -62,7 +62,7 @@ const BlogMasonaryPage = () => {
                               <Link legacyBehavior href="/blog-grid"><a>Beauty</a></Link>
                             </li>
                             <li>
-                              <Link legacyBehavior href="/shop"><a>Makeup</a></Link>
+                              <Link legacyBehavior href="/"><a>Makeup</a></Link>
                             </li>
                             <li>
                               <Link legacyBehavior href="/blog-grid"><a>Health</a></Link>
@@ -95,7 +95,7 @@ const BlogMasonaryPage = () => {
                               <Link legacyBehavior href="/blog-grid"><a>Beauty</a></Link>
                             </li>
                             <li>
-                              <Link legacyBehavior href="/shop"><a>Makeup</a></Link>
+                              <Link legacyBehavior href="/"><a>Makeup</a></Link>
                             </li>
                             <li>
                               <Link legacyBehavior href="/blog-grid"><a>Health</a></Link>
@@ -133,7 +133,7 @@ const BlogMasonaryPage = () => {
                               <Link legacyBehavior href="/blog-grid"><a>Beauty</a></Link>
                             </li>
                             <li>
-                              <Link legacyBehavior href="/shop"><a>Makeup</a></Link>
+                              <Link legacyBehavior href="/"><a>Makeup</a></Link>
                             </li>
                             <li>
                               <Link legacyBehavior href="/blog-grid"><a>Health</a></Link>
@@ -165,7 +165,7 @@ const BlogMasonaryPage = () => {
                               <Link legacyBehavior href="/blog-grid"><a>Beauty</a></Link>
                             </li>
                             <li>
-                              <Link legacyBehavior href="/shop"><a>Makeup</a></Link>
+                              <Link legacyBehavior href="/"><a>Makeup</a></Link>
                             </li>
                             <li>
                               <Link legacyBehavior href="/blog-grid"><a>Health</a></Link>
@@ -199,7 +199,7 @@ const BlogMasonaryPage = () => {
                           <Link legacyBehavior href="/blog-grid"><a>Beauty</a></Link>
                         </li>
                         <li>
-                          <Link legacyBehavior href="/shop"><a>Makeup</a></Link>
+                          <Link legacyBehavior href="/"><a>Makeup</a></Link>
                         </li>
                         <li>
                           <Link legacyBehavior href="/blog-grid"><a>Health</a></Link>
@@ -234,7 +234,7 @@ const BlogMasonaryPage = () => {
                           <Link legacyBehavior href="/blog-grid"><a>Beauty</a></Link>
                         </li>
                         <li>
-                          <Link legacyBehavior href="/shop"><a>Makeup</a></Link>
+                          <Link legacyBehavior href="/"><a>Makeup</a></Link>
                         </li>
                         <li>
                           <Link legacyBehavior href="/blog-grid"><a>Health</a></Link>
@@ -269,7 +269,7 @@ const BlogMasonaryPage = () => {
                               <Link legacyBehavior href="/blog-grid"><a>Beauty</a></Link>
                             </li>
                             <li>
-                              <Link legacyBehavior href="/shop"><a>Makeup</a></Link>
+                              <Link legacyBehavior href="/"><a>Makeup</a></Link>
                             </li>
                             <li>
                               <Link legacyBehavior href="/blog-grid"><a>Health</a></Link>
@@ -301,7 +301,7 @@ const BlogMasonaryPage = () => {
                               <Link legacyBehavior href="/blog-grid"><a>Beauty</a></Link>
                             </li>
                             <li>
-                              <Link legacyBehavior href="/shop"><a>Makeup</a></Link>
+                              <Link legacyBehavior href="/"><a>Makeup</a></Link>
                             </li>
                             <li>
                               <Link legacyBehavior href="/blog-grid"><a>Health</a></Link>

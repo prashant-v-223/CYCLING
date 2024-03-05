@@ -24,7 +24,7 @@ const Topbar2 = () => {
             </div>
             <p>
               Enjoy Free shipping for orders over $30!{" "}
-              <Link legacyBehavior href="/shop">
+              <Link legacyBehavior href="/">
                 <a>Shop Now</a>
               </Link>
             </p>

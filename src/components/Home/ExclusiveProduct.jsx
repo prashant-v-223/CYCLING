@@ -124,7 +124,7 @@ const ExclusiveProduct = () => {
                           </Link>
                         </div>
                         <div className="product-right-content">
-                          <Link legacyBehavior href="/shop">
+                          <Link legacyBehavior href="/">
                             <a>
                             <img src="/assets/img/home1/loreal-logo.png" alt="" />
                             </a>
@@ -222,7 +222,7 @@ const ExclusiveProduct = () => {
                           </Link>
                         </div>
                         <div className="product-right-content">
-                          <Link legacyBehavior href="/shop">
+                          <Link legacyBehavior href="/">
                             <a>
                             <img src="/assets/img/home1/loreal-logo.png" alt="" />
                             </a>
@@ -320,7 +320,7 @@ const ExclusiveProduct = () => {
                           </Link>
                         </div>
                         <div className="product-right-content">
-                          <Link legacyBehavior href="/shop">
+                          <Link legacyBehavior href="/">
                             <a>
                             <img src="/assets/img/home1/loreal-logo.png" alt="" />
                             </a>

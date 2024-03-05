@@ -162,8 +162,8 @@ const ProductViewModal = () => {
                   <div className="product-info">
                     <ul className="product-info-list">
                       <li> <span>SKU:</span> 9852410</li>
-                      <li> <span>Brand:</span> <Link legacyBehavior href="/shop"><a>Chanel</a></Link></li>
-                      <li> <span>Category:</span> <Link legacyBehavior href="/shop"><a>Body</a></Link>, <Link legacyBehavior href="/shop"><a>Face</a></Link></li>
+                      <li> <span>Brand:</span> <Link legacyBehavior href="/"><a>Chanel</a></Link></li>
+                      <li> <span>Category:</span> <Link legacyBehavior href="/"><a>Body</a></Link>, <Link legacyBehavior href="/"><a>Face</a></Link></li>
                     </ul>
                   </div>
                   <div className="payment-method">

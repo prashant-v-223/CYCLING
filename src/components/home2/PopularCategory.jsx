@@ -23,14 +23,14 @@ const PopularCategory = () => {
           <div className="col-lg-2 col-md-3 col-sm-4">
             <div className="category-card style-2">
               <div className="category-card-img">
-                <Link legacyBehavior href="/shop">
+                <Link legacyBehavior href="/">
                   <a>
                   <img src="/assets/img/home2/home2-category-img1.png" alt="" />
                   </a>
                 </Link>
               </div>
               <div className="category-card-content">
-                <Link legacyBehavior href="/shop">
+                <Link legacyBehavior href="/">
                   <a>Bath &amp; Body
                     </a></Link>
               </div>
@@ -39,14 +39,14 @@ const PopularCategory = () => {
           <div className="col-lg-2 col-md-3 col-sm-4">
             <div className="category-card style-2">
               <div className="category-card-img">
-                <Link legacyBehavior href="/shop">
+                <Link legacyBehavior href="/">
                   <a>
                   <img src="/assets/img/home2/home2-category-img2.png" alt="" />
                   </a>
                 </Link>
               </div>
               <div className="category-card-content">
-                <Link legacyBehavior href="/shop">
+                <Link legacyBehavior href="/">
                   <a>
                   Skin Care
                     </a></Link>
@@ -56,14 +56,14 @@ const PopularCategory = () => {
           <div className="col-lg-2 col-md-3 col-sm-4">
             <div className="category-card style-2">
               <div className="category-card-img">
-                <Link legacyBehavior href="/shop">
+                <Link legacyBehavior href="/">
                   <a>
                   <img src="/assets/img/home2/home2-category-img3.png" alt="" />
                   </a>
                 </Link>
               </div>
               <div className="category-card-content">
-                <Link legacyBehavior href="/shop">
+                <Link legacyBehavior href="/">
                   <a>Hair Care
                     </a></Link>
               </div>
@@ -72,14 +72,14 @@ const PopularCategory = () => {
           <div className="col-lg-2 col-md-3 col-sm-4">
             <div className="category-card style-2">
               <div className="category-card-img">
-                <Link legacyBehavior href="/shop">
+                <Link legacyBehavior href="/">
                   <a>
                   <img src="/assets/img/home2/home2-category-img4.png" alt="" />
                   </a>
                 </Link>
               </div>
               <div className="category-card-content">
-                <Link legacyBehavior href="/shop">
+                <Link legacyBehavior href="/">
                   <a>Kids &amp; Baby
                     </a></Link>
               </div>
@@ -88,14 +88,14 @@ const PopularCategory = () => {
           <div className="col-lg-2 col-md-3 col-sm-4">
             <div className="category-card style-2">
               <div className="category-card-img">
-                <Link legacyBehavior href="/shop">
+                <Link legacyBehavior href="/">
                   <a>
                   <img src="/assets/img/home2/home2-category-img5.png" alt="" />
                   </a>
                 </Link>
               </div>
               <div className="category-card-content">
-                <Link legacyBehavior href="/shop">
+                <Link legacyBehavior href="/">
                   <a>Makeup
                     </a></Link>
               </div>
@@ -104,14 +104,14 @@ const PopularCategory = () => {
           <div className="col-lg-2 col-md-3 col-sm-4">
             <div className="category-card style-2">
               <div className="category-card-img">
-                <Link legacyBehavior href="/shop">
+                <Link legacyBehavior href="/">
                   <a>
                   <img src="/assets/img/home2/home2-category-img6.png" alt="" />
                   </a>
                 </Link>
               </div>
               <div className="category-card-content">
-                <Link legacyBehavior href="/shop">
+                <Link legacyBehavior href="/">
                   <a>
                   Accessories
                     </a></Link>

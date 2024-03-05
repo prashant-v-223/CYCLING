@@ -15,7 +15,7 @@ function OfferBanner() {
                   <h5>Get</h5>
                   <h5><span>30%</span> off</h5>
                 </div>
-                <Link legacyBehavior href="/shop"><a  className="buy-btn2 hover-btn3">*Buy Now*</a></Link>
+                <Link legacyBehavior href="/"><a  className="buy-btn2 hover-btn3">*Buy Now*</a></Link>
               </div>
             </div>
           </div>
@@ -26,7 +26,7 @@ function OfferBanner() {
                 <h5>All Makeup Product</h5>
                 <h4>30% <span>off</span></h4>
                 <p>Whatever your summer looks like, bring your own.</p>
-                <Link legacyBehavior href="/shop"><a  className="buy-btn2 hover-btn3">*Buy Now*</a></Link>
+                <Link legacyBehavior href="/"><a  className="buy-btn2 hover-btn3">*Buy Now*</a></Link>
               </div>
             </div>
           </div>

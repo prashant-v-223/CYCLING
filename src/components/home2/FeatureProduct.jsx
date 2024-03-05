@@ -8,7 +8,7 @@ const FeatureProduct = () => {
         <div className="section-title3">
           <h3>Featured <span>Product</span> </h3>
           <div className="view-all">
-            <Link legacyBehavior href="/shop">
+            <Link legacyBehavior href="/">
               <a>
               View All Product
               <svg width={33} height={13} viewBox="0 0 33 13" xmlns="http://www.w3.org/2000/svg">
@@ -27,7 +27,7 @@ const FeatureProduct = () => {
                 <span>-15%</span>
               </div>
               <div className="product-card-img">
-                <Link legacyBehavior href="/shop">
+                <Link legacyBehavior href="/">
                   <a>
                   <img src="/assets/img/home2/product-img-1.png" alt="" />
                   </a>
@@ -64,7 +64,7 @@ const FeatureProduct = () => {
                 </div>
               </div>
               <div className="product-card-content">
-                <p><Link legacyBehavior href="/shop"><a>Crystal Gleam</a></Link></p>
+                <p><Link legacyBehavior href="/"><a>Crystal Gleam</a></Link></p>
                 <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Crystal-Infused Highlighter</a></Link></h6>
                 <span>$150.00 <del>$200.00</del></span>
                 <ul className="product-size">
@@ -82,7 +82,7 @@ const FeatureProduct = () => {
                 <span>-15%</span>
               </div>
               <div className="product-card-img">
-                <Link legacyBehavior href="/shop">
+                <Link legacyBehavior href="/">
                   <a>
                   <img src="/assets/img/home2/product-img-2.png" alt="" />
                   </a>
@@ -119,7 +119,7 @@ const FeatureProduct = () => {
                 </div>
               </div>
               <div className="product-card-content">
-                <p><Link legacyBehavior href="/shop"><a>Crystal</a></Link></p>
+                <p><Link legacyBehavior href="/"><a>Crystal</a></Link></p>
                 <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Prism Eyeshadow Palette</a></Link></h6>
                 <span>$170.00 <del>$200.00</del></span>
                 <div className="rating">
@@ -141,7 +141,7 @@ const FeatureProduct = () => {
                 <span>NEW</span>
               </div>
               <div className="product-card-img double-img">
-                <Link legacyBehavior href="/shop">
+                <Link legacyBehavior href="/">
                   <a>
                   <img src="/assets/img/home2/product-img-3.png" alt="" className="img1" />
                   <img src="/assets/img/home2/product-img-9.png" alt="" className="img2" />
@@ -179,7 +179,7 @@ const FeatureProduct = () => {
                 </div>
               </div>
               <div className="product-card-content">
-                <p><Link legacyBehavior href="/shop"><a>Radiant</a></Link></p>
+                <p><Link legacyBehavior href="/"><a>Radiant</a></Link></p>
                 <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Hydrating Red Lip Stain.</a></Link></h6>
                 <span>$187.00 <del>$200.00</del></span>
                 <div className="rating">
@@ -201,7 +201,7 @@ const FeatureProduct = () => {
                 <span>NEW</span>
               </div>
               <div className="product-card-img">
-                <Link legacyBehavior href="/shop">
+                <Link legacyBehavior href="/">
                   <a>
                   <img src="/assets/img/home2/product-img-4.png" alt="" />
                   </a>
@@ -241,7 +241,7 @@ const FeatureProduct = () => {
                 </div>
               </div>
               <div className="product-card-content">
-                <p><Link legacyBehavior href="/shop"><a>Radiance</a></Link></p>
+                <p><Link legacyBehavior href="/"><a>Radiance</a></Link></p>
                 <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Brightening Serum cream</a></Link></h6>
                 <span>$176.00 <del>$200.00</del></span>
                 <div className="rating">
@@ -263,7 +263,7 @@ const FeatureProduct = () => {
                 <span>-17%</span>
               </div>
               <div className="product-card-img">
-                <Link legacyBehavior href="/shop">
+                <Link legacyBehavior href="/">
                   <a>
                   <img src="/assets/img/home2/product-img-5.png" alt="" />
                   </a>
@@ -300,7 +300,7 @@ const FeatureProduct = () => {
                 </div>
               </div>
               <div className="product-card-content">
-                <p><Link legacyBehavior href="/shop"><a>Aqua Kiss</a></Link></p>
+                <p><Link legacyBehavior href="/"><a>Aqua Kiss</a></Link></p>
                 <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Hydrating Lip Gloss pack</a></Link></h6>
                 <span>$165.00 <del>$200.00</del></span>
                 <div className="rating">
@@ -322,7 +322,7 @@ const FeatureProduct = () => {
                 <span>-10%</span>
               </div>
               <div className="product-card-img double-img">
-                <Link legacyBehavior href="/shop">
+                <Link legacyBehavior href="/">
                   <a>
                   <img src="/assets/img/home2/product-img-6.png" alt="" className="img1" />
                   <img src="/assets/img/home2/product-img-12.png" alt="" className="img2" />
@@ -360,7 +360,7 @@ const FeatureProduct = () => {
                 </div>
               </div>
               <div className="product-card-content">
-                <p><Link legacyBehavior href="/shop"><a>Sea Breeze</a></Link></p>
+                <p><Link legacyBehavior href="/"><a>Sea Breeze</a></Link></p>
                 <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Salt Spray Beachy Waves</a></Link></h6>
                 <span>$155.00 <del>$200.00</del></span>
                 <div className="rating">
@@ -382,7 +382,7 @@ const FeatureProduct = () => {
                 <span>-18%</span>
               </div>
               <div className="product-card-img">
-                <Link legacyBehavior href="/shop">
+                <Link legacyBehavior href="/">
                   <a>
                   <img src="/assets/img/home2/product-img-7.png" alt="" />
                   </a>
@@ -419,7 +419,7 @@ const FeatureProduct = () => {
                 </div>
               </div>
               <div className="product-card-content">
-                <p><Link legacyBehavior href="/shop"><a>Nectar Nouri</a></Link></p>
+                <p><Link legacyBehavior href="/"><a>Nectar Nouri</a></Link></p>
                 <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Necessaire the deodorant</a></Link></h6>
                 <span>$143.00 <del>$200.00</del></span>
                 <div className="rating">
@@ -441,7 +441,7 @@ const FeatureProduct = () => {
                 <span>NEW</span>
               </div>
               <div className="product-card-img double-img">
-                <Link legacyBehavior href="/shop">
+                <Link legacyBehavior href="/">
                   <a>
                   <img src="/assets/img/home2/product-img-8.png" alt="" className="img1" />
                   <img src="/assets/img/home2/product-img-11.png" alt="" className="img2" />
@@ -479,7 +479,7 @@ const FeatureProduct = () => {
                 </div>
               </div>
               <div className="product-card-content">
-                <p><Link legacyBehavior href="/shop"><a>Sea Breeze</a></Link></p>
+                <p><Link legacyBehavior href="/"><a>Sea Breeze</a></Link></p>
                 <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Makeup Smooth brushes</a></Link></h6>
                 <span>$132.00 <del>$200.00</del></span>
                 <div className="rating">

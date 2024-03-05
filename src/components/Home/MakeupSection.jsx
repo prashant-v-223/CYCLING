@@ -17,7 +17,7 @@ const MakeupSection = () => {
                 <span>BROW BESTSELLERS</span>
                 <h2>They’re kinda our Best thing!</h2>
                 <p>whatever your winter looks like, bring your own mountain bike with zidkart up to 50% off and stay fit and healthy.Pellentesque ipsum dui, laoreet vitae ex in, pellentesque aliquam leo.</p>
-                <Link legacyBehavior href="/shop"><a className="primary-btn1 style-2 hover-btn3">*Shop All Brows*</a></Link>
+                <Link legacyBehavior href="/"><a className="primary-btn1 style-2 hover-btn3">*Shop All Brows*</a></Link>
               </div>
             </div>
           </div>
@@ -27,7 +27,7 @@ const MakeupSection = () => {
             <div className="makeup-content">
               <h2>Try on your perfect Best Makeup!</h2>
               <p>whatever your winter looks like, bring your own mountain bike with zidkart up to 50% off and stay fit and healthy.Pellentesque ipsum dui, laoreet vitae ex in, pellentesque aliquam leo.</p>
-              <Link legacyBehavior href="/shop"><a className="primary-btn1 style-2 hover-btn3">*Try It Now*</a></Link>
+              <Link legacyBehavior href="/"><a className="primary-btn1 style-2 hover-btn3">*Try It Now*</a></Link>
             </div>
           </div>
           <div className="col-lg-6 order-lg-2 order-1">

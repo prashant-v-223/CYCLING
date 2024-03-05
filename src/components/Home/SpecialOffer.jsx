@@ -109,7 +109,7 @@ const SpecialOffer = () => {
                     </ul>
                   </div>
                 </div>
-                <Link legacyBehavior href="/shop"><a  className="primary-btn1 style-2 hover-btn3">*Shop Now*</a></Link>
+                <Link legacyBehavior href="/"><a  className="primary-btn1 style-2 hover-btn3">*Shop Now*</a></Link>
               </div>
             </div>
             <div className="col-lg-8 p-lg-0">
@@ -136,7 +136,7 @@ const SpecialOffer = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Mystic Woods Aroma</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>Whispering</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Whispering</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -171,7 +171,7 @@ const SpecialOffer = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Dewy Fresh Face</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>Pure Bliss</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Pure Bliss</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -206,7 +206,7 @@ const SpecialOffer = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Rose Petal Flush</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>Velvet Tint</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Velvet Tint</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -242,7 +242,7 @@ const SpecialOffer = () => {
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Hydrating Waves</a></Link>
                         </h6>
-                        <p><Link legacyBehavior href="/shop"><a>Crystal Gleam</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Crystal Gleam</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -278,7 +278,7 @@ const SpecialOffer = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Velvet Red Charm</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>Radiant</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Radiant</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -314,7 +314,7 @@ const SpecialOffer = () => {
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Intensive Cream</a></Link>
                         </h6>
-                        <p><Link legacyBehavior href="/shop"><a>Nectar Nouri</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Nectar Nouri</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -349,7 +349,7 @@ const SpecialOffer = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Mystic Woods Aroma</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>Whispering</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Whispering</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -384,7 +384,7 @@ const SpecialOffer = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Dewy Fresh Face</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>Pure Bliss</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Pure Bliss</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -419,7 +419,7 @@ const SpecialOffer = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Rose Petal Flush</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>Velvet Tint</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Velvet Tint</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -455,7 +455,7 @@ const SpecialOffer = () => {
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Hydrating Waves</a></Link>
                         </h6>
-                        <p><Link legacyBehavior href="/shop"><a>Crystal Gleam</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Crystal Gleam</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -490,7 +490,7 @@ const SpecialOffer = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Velvet Red Charm</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>Radiant</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Radiant</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -526,7 +526,7 @@ const SpecialOffer = () => {
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Intensive Cream</a></Link>
                         </h6>
-                        <p><Link legacyBehavior href="/shop"><a>Nectar Nouri</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Nectar Nouri</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>

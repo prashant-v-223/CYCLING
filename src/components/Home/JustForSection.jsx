@@ -10,7 +10,7 @@ const JustForSection = () => {
         <div className="section-title2 style-2">
           <h3>Just For You</h3>
           <div className="all-product hover-underline">
-            <Link legacyBehavior href="/shop">
+            <Link legacyBehavior href="/">
               <a>
               *View All Product
               <svg width={33} height={13} viewBox="0 0 33 13" xmlns="http://www.w3.org/2000/svg">
@@ -70,7 +70,7 @@ const JustForSection = () => {
                   </svg>
                   <h6>30% <br /><span>off</span></h6>
                 </div>
-                <Link legacyBehavior href="/shop"><a  className="buy-btn hover-btn4">*Buy Now*</a></Link>
+                <Link legacyBehavior href="/"><a  className="buy-btn hover-btn4">*Buy Now*</a></Link>
               </div>
             </div>
           </div>
@@ -98,7 +98,7 @@ const JustForSection = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Youthful Renewal Formula</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>Crystal Gleam</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Crystal Gleam</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -136,7 +136,7 @@ const JustForSection = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Vivid Eye Pencil</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>REVLON</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>REVLON</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -172,7 +172,7 @@ const JustForSection = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Firming Night Cream</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>Crystal</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Crystal</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -207,7 +207,7 @@ const JustForSection = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Brightening Cream Complex</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>Radiant</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Radiant</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -243,7 +243,7 @@ const JustForSection = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Age-Defying Miracle</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>Radiance</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Radiance</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -278,7 +278,7 @@ const JustForSection = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Oil-Control Pressed</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>Whispering</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Whispering</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -318,7 +318,7 @@ const JustForSection = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Youthful Renewal Formula</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>Crystal Gleam</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Crystal Gleam</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -353,7 +353,7 @@ const JustForSection = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Vivid Eye Pencil</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>REVLON</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>REVLON</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -389,7 +389,7 @@ const JustForSection = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Firming Night Cream</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>Crystal</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Crystal</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -424,7 +424,7 @@ const JustForSection = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Brightening Cream Complex</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>Radiant</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Radiant</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -460,7 +460,7 @@ const JustForSection = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Age-Defying Miracle</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>Radiance</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Radiance</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -495,7 +495,7 @@ const JustForSection = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Oil-Control Pressed</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>Whispering</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Whispering</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -535,7 +535,7 @@ const JustForSection = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Youthful Renewal Formula</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>Crystal Gleam</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Crystal Gleam</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -570,7 +570,7 @@ const JustForSection = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Vivid Eye Pencil</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>REVLON</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>REVLON</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -606,7 +606,7 @@ const JustForSection = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Firming Night Cream</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>Crystal</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Crystal</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -641,7 +641,7 @@ const JustForSection = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Brightening Cream Complex</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>Radiant</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Radiant</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -677,7 +677,7 @@ const JustForSection = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Age-Defying Miracle</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>Radiance</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Radiance</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -712,7 +712,7 @@ const JustForSection = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Oil-Control Pressed</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>Whispering</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Whispering</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -752,7 +752,7 @@ const JustForSection = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Youthful Renewal Formula</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>Crystal Gleam</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Crystal Gleam</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -787,7 +787,7 @@ const JustForSection = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Vivid Eye Pencil</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>REVLON</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>REVLON</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -823,7 +823,7 @@ const JustForSection = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Firming Night Cream</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>Crystal</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Crystal</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -858,7 +858,7 @@ const JustForSection = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Brightening Cream Complex</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>Radiant</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Radiant</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -894,7 +894,7 @@ const JustForSection = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Age-Defying Miracle</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>Radiance</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Radiance</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -929,7 +929,7 @@ const JustForSection = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Oil-Control Pressed</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>Whispering</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Whispering</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -969,7 +969,7 @@ const JustForSection = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Youthful Renewal Formula</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>Crystal Gleam</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Crystal Gleam</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -1004,7 +1004,7 @@ const JustForSection = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Vivid Eye Pencil</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>REVLON</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>REVLON</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -1040,7 +1040,7 @@ const JustForSection = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Firming Night Cream</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>Crystal</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Crystal</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -1075,7 +1075,7 @@ const JustForSection = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Brightening Cream Complex</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>Radiant</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Radiant</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -1111,7 +1111,7 @@ const JustForSection = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Age-Defying Miracle</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>Radiance</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Radiance</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -1146,7 +1146,7 @@ const JustForSection = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Oil-Control Pressed</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>Whispering</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Whispering</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -1186,7 +1186,7 @@ const JustForSection = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Youthful Renewal Formula</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>Crystal Gleam</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Crystal Gleam</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -1221,7 +1221,7 @@ const JustForSection = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Vivid Eye Pencil</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>REVLON</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>REVLON</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -1257,7 +1257,7 @@ const JustForSection = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Firming Night Cream</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>Crystal</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Crystal</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -1292,7 +1292,7 @@ const JustForSection = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Brightening Cream Complex</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>Radiant</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Radiant</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -1328,7 +1328,7 @@ const JustForSection = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Age-Defying Miracle</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>Radiance</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Radiance</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -1363,7 +1363,7 @@ const JustForSection = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Oil-Control Pressed</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>Whispering</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Whispering</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -1403,7 +1403,7 @@ const JustForSection = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Youthful Renewal Formula</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>Crystal Gleam</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Crystal Gleam</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -1438,7 +1438,7 @@ const JustForSection = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Vivid Eye Pencil</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>REVLON</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>REVLON</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -1474,7 +1474,7 @@ const JustForSection = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Firming Night Cream</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>Crystal</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Crystal</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -1509,7 +1509,7 @@ const JustForSection = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Brightening Cream Complex</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>Radiant</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Radiant</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -1545,7 +1545,7 @@ const JustForSection = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Age-Defying Miracle</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>Radiance</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Radiance</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -1580,7 +1580,7 @@ const JustForSection = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Oil-Control Pressed</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>Whispering</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Whispering</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -1620,7 +1620,7 @@ const JustForSection = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Youthful Renewal Formula</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>Crystal Gleam</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Crystal Gleam</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -1655,7 +1655,7 @@ const JustForSection = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Vivid Eye Pencil</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>REVLON</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>REVLON</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -1691,7 +1691,7 @@ const JustForSection = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Firming Night Cream</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>Crystal</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Crystal</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -1726,7 +1726,7 @@ const JustForSection = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Brightening Cream Complex</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>Radiant</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Radiant</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -1762,7 +1762,7 @@ const JustForSection = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Age-Defying Miracle</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>Radiance</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Radiance</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -1797,7 +1797,7 @@ const JustForSection = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Oil-Control Pressed</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>Whispering</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Whispering</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -1837,7 +1837,7 @@ const JustForSection = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Youthful Renewal Formula</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>Crystal Gleam</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Crystal Gleam</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -1872,7 +1872,7 @@ const JustForSection = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Vivid Eye Pencil</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>REVLON</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>REVLON</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -1908,7 +1908,7 @@ const JustForSection = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Firming Night Cream</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>Crystal</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Crystal</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -1943,7 +1943,7 @@ const JustForSection = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Brightening Cream Complex</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>Radiant</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Radiant</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -1979,7 +1979,7 @@ const JustForSection = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Age-Defying Miracle</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>Radiance</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Radiance</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>
@@ -2014,7 +2014,7 @@ const JustForSection = () => {
                       </div>
                       <div className="product-card-content">
                         <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Oil-Control Pressed</a></Link></h6>
-                        <p><Link legacyBehavior href="/shop"><a>Whispering</a></Link></p>
+                        <p><Link legacyBehavior href="/"><a>Whispering</a></Link></p>
                         <p className="price">$150.00 <del>$200.00</del></p>
                         <div className="rating">
                           <ul>

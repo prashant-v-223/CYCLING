@@ -11,7 +11,7 @@ const ChooseProduct = () => {
         <div className="row gy-4 justify-content-center">
           <div className="col-lg-4 col-md-6">
             <div className="choose-product-card hover-img style-2">
-              <Link legacyBehavior href="/shop" style={{
+              <Link legacyBehavior href="/" style={{
                 height: "100%"
               }}>
                 <a>
@@ -27,7 +27,7 @@ const ChooseProduct = () => {
           </div>
           <div className="col-lg-4 col-md-6">
             <div className="choose-product-card hover-img style-2">
-              <Link legacyBehavior href="/shop">
+              <Link legacyBehavior href="/">
                 <a>
                   <img src="/assets/img/416x514 1.jpg" alt="" />
                 </a>
@@ -38,7 +38,7 @@ const ChooseProduct = () => {
           </div>
           <div className="col-lg-4 col-md-6">
             <div className="choose-product-card hover-img style-2">
-              <Link legacyBehavior href="/shop">
+              <Link legacyBehavior href="/">
                 <a>
                   <img src="/assets/img/416x514 3.jpg" alt="" />
                 </a>

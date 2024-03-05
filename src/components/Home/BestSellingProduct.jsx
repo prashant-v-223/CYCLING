@@ -22,7 +22,7 @@ const BestSellingProduct = () => {
           <div className="section-title2">
             <h3>Best Selling Product</h3>
             <div className="all-product hover-underline">
-              <Link legacyBehavior href="/shop">
+              <Link legacyBehavior href="/">
                 <a>
                   *View All Product
                   <svg

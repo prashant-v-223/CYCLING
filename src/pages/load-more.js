@@ -87,28 +87,28 @@ const LoadMore = () => {
                 <h5 className="shop-widget-title">Categories</h5>
                 <ul className="shop-item">
                   <li>
-                    <Link legacyBehavior href="/shop"><a>All Product</a></Link>
+                    <Link legacyBehavior href="/"><a>All Product</a></Link>
                   </li>
                   <li>
-                    <Link legacyBehavior href="/shop"><a>Healthy &amp; Natural</a></Link>
+                    <Link legacyBehavior href="/"><a>Healthy &amp; Natural</a></Link>
                   </li>
                   <li>
-                    <Link legacyBehavior href="/shop"><a>Beauty &amp; Cosmetics</a></Link>
+                    <Link legacyBehavior href="/"><a>Beauty &amp; Cosmetics</a></Link>
                   </li>
                   <li>
-                    <Link legacyBehavior href="/shop"><a>Selfcare Veggies</a></Link>
+                    <Link legacyBehavior href="/"><a>Selfcare Veggies</a></Link>
                   </li>
                   <li>
-                    <Link legacyBehavior href="/shop"><a>Personal Care</a></Link>
+                    <Link legacyBehavior href="/"><a>Personal Care</a></Link>
                   </li>
                   <li>
-                    <Link legacyBehavior href="/shop"><a>Men’s Collections</a></Link>
+                    <Link legacyBehavior href="/"><a>Men’s Collections</a></Link>
                   </li>
                   <li>
-                    <Link legacyBehavior href="/shop"><a>kids &amp; Baby Set</a></Link>
+                    <Link legacyBehavior href="/"><a>kids &amp; Baby Set</a></Link>
                   </li>
                   <li>
-                    <Link legacyBehavior href="/shop"><a>Summer product</a></Link>
+                    <Link legacyBehavior href="/"><a>Summer product</a></Link>
                   </li>
                 </ul>
               </div>
@@ -118,7 +118,7 @@ const LoadMore = () => {
                 <h5 className="shop-widget-title">Our Brand </h5>
                 <ul className="shop-item">
                   <li className="brand-list">
-                    <Link legacyBehavior href="/shop">
+                    <Link legacyBehavior href="/">
                       <a>
                       Nivea
                       <span>50</span>
@@ -126,7 +126,7 @@ const LoadMore = () => {
                     </Link>  
                   </li>
                   <li className="brand-list">
-                    <Link legacyBehavior href="/shop">
+                    <Link legacyBehavior href="/">
                       <a>
                       Loreal
                       <span>35</span>
@@ -134,7 +134,7 @@ const LoadMore = () => {
                     </Link>
                   </li>
                   <li className="brand-list">
-                    <Link legacyBehavior href="/shop">
+                    <Link legacyBehavior href="/">
                       <a>
                       Gillette
                       <span>20</span>
@@ -142,7 +142,7 @@ const LoadMore = () => {
                     </Link>
                   </li>
                   <li className="brand-list">
-                    <Link legacyBehavior href="/shop">
+                    <Link legacyBehavior href="/">
                       <a>
                       Garnier
                       <span>18</span>
@@ -150,7 +150,7 @@ const LoadMore = () => {
                     </Link>
                   </li>
                   <li className="brand-list">
-                    <Link legacyBehavior href="/shop">
+                    <Link legacyBehavior href="/">
                       <a>
                       Cetaphil
                       <span>06</span>
@@ -158,7 +158,7 @@ const LoadMore = () => {
                     </Link>
                   </li>
                   <li className="brand-list">
-                    <Link legacyBehavior href="/shop">
+                    <Link legacyBehavior href="/">
                       <a>
                       Aveeno
                       <span>08</span>
@@ -273,7 +273,7 @@ const LoadMore = () => {
                 <div className={`col${activeColumn === 'column-4'?"-lg-3":activeColumn==="column-3"?"-md-4":activeColumn==="column-2"?"-sm-6":"nop"}`}>
                   <div className="product-card style-3 hover-btn">
                     <div className="product-card-img double-img">
-                      <Link legacyBehavior href="/shop">
+                      <Link legacyBehavior href="/">
                         <a>
                       
                         <img src="/assets/img/home1/product-img-4.png" alt="" className="img1" />
@@ -331,7 +331,7 @@ const LoadMore = () => {
                     </div>
                     <div className="product-card-content">
                       <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Botanical hair Shampoo </a></Link></h6>
-                      <p><Link legacyBehavior href="/shop"><a>Radiant Vibe</a></Link></p>
+                      <p><Link legacyBehavior href="/"><a>Radiant Vibe</a></Link></p>
                       <p className="price">$150.00 <del>$200.00</del></p>
                       <div className="rating">
                         <ul>
@@ -350,7 +350,7 @@ const LoadMore = () => {
                 <div className={`col${activeColumn === 'column-4'?"-lg-3":activeColumn==="column-3"?"-md-4":activeColumn==="column-2"?"-sm-6":"nop"}`}>
                   <div className="product-card style-3 hover-btn">
                     <div className="product-card-img">
-                      <Link legacyBehavior href="/shop">
+                      <Link legacyBehavior href="/">
                         <a>
                           <img src="/assets/img/home1/product-img-5.png" alt="" />
                           <div className="batch">
@@ -392,7 +392,7 @@ const LoadMore = () => {
                     </div>
                     <div className="product-card-content">
                       <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Bamboo Fibers Shampoo</a></Link></h6>
-                      <p><Link legacyBehavior href="/shop"><a>Glow Flair</a></Link></p>
+                      <p><Link legacyBehavior href="/"><a>Glow Flair</a></Link></p>
                       <p className="price">$145.00</p>
                       <div className="rating">
                         <ul>
@@ -411,7 +411,7 @@ const LoadMore = () => {
                 <div className={`col${activeColumn === 'column-4'?"-lg-3":activeColumn==="column-3"?"-md-4":activeColumn==="column-2"?"-sm-6":"nop"}`}>
                   <div className="product-card style-3 hover-btn">
                     <div className="product-card-img">
-                      <Link legacyBehavior href="/shop">
+                      <Link legacyBehavior href="/">
                         <a>
                         <img src="/assets/img/home1/product-img-6.png" alt="" />
                         <div className="batch">
@@ -450,7 +450,7 @@ const LoadMore = () => {
                     </div>
                     <div className="product-card-content">
                       <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Organic vitamin cream</a></Link></h6>
-                      <p><Link legacyBehavior href="/shop"><a>pantene</a></Link></p>
+                      <p><Link legacyBehavior href="/"><a>pantene</a></Link></p>
                       <p className="price">$140.00 <del>$200.00</del></p>
                       <ul className="product-size">
                         <li>250 ml</li>
@@ -465,7 +465,7 @@ const LoadMore = () => {
                 <div className={`col${activeColumn === 'column-4'?"-lg-3":activeColumn==="column-3"?"-md-4":activeColumn==="column-2"?"-sm-6":"nop"}`}>
                   <div className="product-card style-3 hover-btn">
                     <div className="product-card-img">
-                      <Link legacyBehavior href="/shop">
+                      <Link legacyBehavior href="/">
                         <a>
                         <img src="/assets/img/home1/product-img-15.png" alt="" />
                         <div className="batch">
@@ -504,7 +504,7 @@ const LoadMore = () => {
                     </div>
                     <div className="product-card-content">
                       <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Eau de perfume for women</a></Link></h6>
-                      <p><Link legacyBehavior href="/shop"><a>Belle Luxe</a></Link></p>
+                      <p><Link legacyBehavior href="/"><a>Belle Luxe</a></Link></p>
                       <p className="price">$135.00 <del>$200.00</del></p>
                       <div className="rating">
                         <ul>
@@ -523,7 +523,7 @@ const LoadMore = () => {
                 <div className={`col${activeColumn === 'column-4'?"-lg-3":activeColumn==="column-3"?"-md-4":activeColumn==="column-2"?"-sm-6":"nop"}`}>
                   <div className="product-card style-3 hover-btn">
                     <div className="product-card-img double-img">
-                      <Link legacyBehavior href="/shop">
+                      <Link legacyBehavior href="/">
                         <a>
                         <img src="/assets/img/home1/product-img-16.png" alt="" className="img1" />
                         <img src="/assets/img/home1/product-img-3.png" alt="" className="img2" />
@@ -563,7 +563,7 @@ const LoadMore = () => {
                     </div>
                     <div className="product-card-content">
                       <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Poutsicle Hydrating Lip Stain.</a></Link></h6>
-                      <p><Link legacyBehavior href="/shop"><a>Elevate Glow</a></Link></p>
+                      <p><Link legacyBehavior href="/"><a>Elevate Glow</a></Link></p>
                       <p className="price">$130.00 <del>$200.00</del></p>
                       <div className="rating">
                         <ul>
@@ -582,7 +582,7 @@ const LoadMore = () => {
                 <div className={`col${activeColumn === 'column-4'?"-lg-3":activeColumn==="column-3"?"-md-4":activeColumn==="column-2"?"-sm-6":"nop"}`}>
                   <div className="product-card style-3 hover-btn">
                     <div className="product-card-img">
-                      <Link legacyBehavior href="/shop">
+                      <Link legacyBehavior href="/">
                         <a>
                         <img src="/assets/img/home1/product-img-7.png" alt="" />
                         <div className="batch">
@@ -621,7 +621,7 @@ const LoadMore = () => {
                     </div>
                     <div className="product-card-content">
                       <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">huile de Hemp seed olive oil</a></Link></h6>
-                      <p><Link legacyBehavior href="/shop"><a>REVLON</a></Link></p>
+                      <p><Link legacyBehavior href="/"><a>REVLON</a></Link></p>
                       <p className="price">$125.00</p>
                       <div className="rating">
                         <ul>
@@ -640,7 +640,7 @@ const LoadMore = () => {
                 <div className={`col${activeColumn === 'column-4'?"-lg-3":activeColumn==="column-3"?"-md-4":activeColumn==="column-2"?"-sm-6":"nop"}`}>
                   <div className="product-card style-3 hover-btn">
                     <div className="product-card-img">
-                      <Link legacyBehavior href="/shop">
+                      <Link legacyBehavior href="/">
                         <a>
                         <img src="/assets/img/home1/product-img-21.png" alt="" />
                         <div className="batch">
@@ -679,7 +679,7 @@ const LoadMore = () => {
                     </div>
                     <div className="product-card-content">
                       <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">curology face cleanser</a></Link></h6>
-                      <p><Link legacyBehavior href="/shop"><a>Pure Glam</a></Link></p>
+                      <p><Link legacyBehavior href="/"><a>Pure Glam</a></Link></p>
                       <p className="price">$120.00</p>
                       <div className="rating">
                         <ul>
@@ -698,7 +698,7 @@ const LoadMore = () => {
                 <div className={`col${activeColumn === 'column-4'?"-lg-3":activeColumn==="column-3"?"-md-4":activeColumn==="column-2"?"-sm-6":"nop"}`}>
                   <div className="product-card style-3 hover-btn">
                     <div className="product-card-img">
-                      <Link legacyBehavior href="/shop">
+                      <Link legacyBehavior href="/">
                         <a>
                         <img src="/assets/img/home1/product-img-14.png" alt="" />
                         <div className="batch">
@@ -737,7 +737,7 @@ const LoadMore = () => {
                     </div>
                     <div className="product-card-content">
                       <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Coconut balm skin salve</a></Link></h6>
-                      <p><Link legacyBehavior href="/shop"><a>Divine Aura</a></Link></p>
+                      <p><Link legacyBehavior href="/"><a>Divine Aura</a></Link></p>
                       <p className="price">$115.00 <del>$200.00</del></p>
                       <div className="rating">
                         <ul>
@@ -756,7 +756,7 @@ const LoadMore = () => {
                 <div className={`col${activeColumn === 'column-4'?"-lg-3":activeColumn==="column-3"?"-md-4":activeColumn==="column-2"?"-sm-6":"nop"}`}>
                   <div className="product-card style-3 hover-btn">
                     <div className="product-card-img">
-                      <Link legacyBehavior href="/shop">
+                      <Link legacyBehavior href="/">
                         <a>
                         <img src="/assets/img/home1/product-img-9.png" alt="" />
                         <div className="batch">
@@ -795,7 +795,7 @@ const LoadMore = () => {
                     </div>
                     <div className="product-card-content">
                       <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Cucumber Green Tea</a></Link></h6>
-                      <p><Link legacyBehavior href="/shop"><a>Luminara</a></Link></p>
+                      <p><Link legacyBehavior href="/"><a>Luminara</a></Link></p>
                       <p className="price">$110.00 <del>$200.00</del></p>
                       <div className="rating">
                         <ul>
@@ -814,7 +814,7 @@ const LoadMore = () => {
                 <div className={`col${activeColumn === 'column-4'?"-lg-3":activeColumn==="column-3"?"-md-4":activeColumn==="column-2"?"-sm-6":"nop"}`}>
                   <div className="product-card style-3 hover-btn">
                     <div className="product-card-img">
-                      <Link legacyBehavior href="/shop">
+                      <Link legacyBehavior href="/">
                         <a>
                         <img src="/assets/img/home1/product-img-11.png" alt="" />
                         <div className="batch">
@@ -853,7 +853,7 @@ const LoadMore = () => {
                     </div>
                     <div className="product-card-content">
                       <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Vitamin c face cleanser</a></Link></h6>
-                      <p><Link legacyBehavior href="/shop"><a>Elysian Glow</a></Link></p>
+                      <p><Link legacyBehavior href="/"><a>Elysian Glow</a></Link></p>
                       <p className="price">$105.00 <del>$200.00</del></p>
                       <div className="rating">
                         <ul>
@@ -872,7 +872,7 @@ const LoadMore = () => {
                 <div className={`col${activeColumn === 'column-4'?"-lg-3":activeColumn==="column-3"?"-md-4":activeColumn==="column-2"?"-sm-6":"nop"}`}>
                   <div className="product-card style-3 hover-btn">
                     <div className="product-card-img">
-                      <Link legacyBehavior href="/shop">
+                      <Link legacyBehavior href="/">
                         <a>
                         <img src="/assets/img/home1/product-img-18.png" alt="" />
                         <div className="batch">
@@ -911,7 +911,7 @@ const LoadMore = () => {
                     </div>
                     <div className="product-card-content">
                       <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">bleu chanel de perfume</a></Link></h6>
-                      <p><Link legacyBehavior href="/shop"><a>Velvet Aura</a></Link></p>
+                      <p><Link legacyBehavior href="/"><a>Velvet Aura</a></Link></p>
                       <p className="price">$110.00</p>
                       <div className="rating">
                         <ul>
@@ -930,7 +930,7 @@ const LoadMore = () => {
                 <div className={`col${activeColumn === 'column-4'?"-lg-3":activeColumn==="column-3"?"-md-4":activeColumn==="column-2"?"-sm-6":"nop"}`}>
                   <div className="product-card style-3 hover-btn">
                     <div className="product-card-img">
-                      <Link legacyBehavior href="/shop">
+                      <Link legacyBehavior href="/">
                         <a>
                         <img src="/assets/img/home1/product-img-20.png" alt="" />
                         <div className="batch">
@@ -969,7 +969,7 @@ const LoadMore = () => {
                     </div>
                     <div className="product-card-content">
                       <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">les beiges eau de lipistick</a></Link></h6>
-                      <p><Link legacyBehavior href="/shop"><a>Aurora Belle</a></Link></p>
+                      <p><Link legacyBehavior href="/"><a>Aurora Belle</a></Link></p>
                       <p className="price">$90.00 <del>$200.00</del></p>
                       <div className="rating">
                         <ul>

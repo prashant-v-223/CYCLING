@@ -94,7 +94,7 @@ const Standard = () => {
                     </div>
                     <div className="product-card-content">
                       <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Botanical &amp; Organic hair Shampoo</a></Link></h6>
-                      <p><Link legacyBehavior href="/shop"><a>Radiant Vibe</a></Link></p>
+                      <p><Link legacyBehavior href="/"><a>Radiant Vibe</a></Link></p>
                       <p className="price">$150.00 <del>$200.00</del></p>
                       <div className="rating">
                         <ul>
@@ -156,7 +156,7 @@ const Standard = () => {
                     </div>
                     <div className="product-card-content">
                       <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Bamboo &amp; Nature Fibers Shampoo</a></Link></h6>
-                      <p><Link legacyBehavior href="/shop"><a>Glow Flair</a></Link></p>
+                      <p><Link legacyBehavior href="/"><a>Glow Flair</a></Link></p>
                       <p className="price">$145.00</p>
                       <div className="rating">
                         <ul>
@@ -214,7 +214,7 @@ const Standard = () => {
                     </div>
                     <div className="product-card-content">
                       <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Organic &amp; Botanical vitamin cream</a></Link></h6>
-                      <p><Link legacyBehavior href="/shop"><a>pantene</a></Link></p>
+                      <p><Link legacyBehavior href="/"><a>pantene</a></Link></p>
                       <p className="price">$140.00 <del>$200.00</del></p>
                       <ul className="product-size justify-content-sm-start justify-content-center flex-wrap">
                         <li>250 ml</li>
@@ -268,7 +268,7 @@ const Standard = () => {
                     </div>
                     <div className="product-card-content">
                       <h6><Link legacyBehavior href="/shop/product-default"><a  className="hover-underline">Eau de perfume for women</a></Link></h6>
-                      <p><Link legacyBehavior href="/shop"><a>Belle Luxe</a></Link></p>
+                      <p><Link legacyBehavior href="/"><a>Belle Luxe</a></Link></p>
                       <p className="price">$135.00 <del>$200.00</del></p>
                       <div className="rating">
                         <ul>
@@ -326,7 +326,7 @@ const Standard = () => {
                     </div>
                     <div className="product-card-content">
                       <h6><Link  legacyBehavior href="/shop/product-default"><a  className="hover-underline">Poutsicle Hydrating Modern Lip Stain</a></Link></h6>
-                      <p><Link legacyBehavior href="/shop"><a>Elevate Glow</a></Link></p>
+                      <p><Link legacyBehavior href="/"><a>Elevate Glow</a></Link></p>
                       <p className="price">$130.00 <del>$200.00</del></p>
                       <div className="rating">
                         <ul>
@@ -403,28 +403,28 @@ const Standard = () => {
                   <h5 className="shop-widget-title">Categories</h5>
                   <ul className="shop-item">
                     <li>
-                      <Link legacyBehavior href="/shop"><a>All Product</a></Link>
+                      <Link legacyBehavior href="/"><a>All Product</a></Link>
                     </li>
                     <li>
-                      <Link legacyBehavior href="/shop"><a>Healthy &amp; Natural</a></Link>
+                      <Link legacyBehavior href="/"><a>Healthy &amp; Natural</a></Link>
                     </li>
                     <li>
-                      <Link legacyBehavior href="/shop"><a>Beauty &amp; Cosmetics</a></Link>
+                      <Link legacyBehavior href="/"><a>Beauty &amp; Cosmetics</a></Link>
                     </li>
                     <li>
-                      <Link legacyBehavior href="/shop"><a>Selfcare Veggies</a></Link>
+                      <Link legacyBehavior href="/"><a>Selfcare Veggies</a></Link>
                     </li>
                     <li>
-                      <Link legacyBehavior href="/shop"><a>Personal Care</a></Link>
+                      <Link legacyBehavior href="/"><a>Personal Care</a></Link>
                     </li>
                     <li>
-                      <Link legacyBehavior href="/shop"><a>Men’s Collections</a></Link>
+                      <Link legacyBehavior href="/"><a>Men’s Collections</a></Link>
                     </li>
                     <li>
-                      <Link legacyBehavior href="/shop"><a>kids &amp; Baby Set</a></Link>
+                      <Link legacyBehavior href="/"><a>kids &amp; Baby Set</a></Link>
                     </li>
                     <li>
-                      <Link legacyBehavior href="/shop"><a>Summer product</a></Link>
+                      <Link legacyBehavior href="/"><a>Summer product</a></Link>
                     </li>
                   </ul>
                 </div>
@@ -434,7 +434,7 @@ const Standard = () => {
                   <h5 className="shop-widget-title">Our Brand </h5>
                   <ul className="shop-item">
                     <li className="brand-list">
-                      <Link legacyBehavior href="/shop">
+                      <Link legacyBehavior href="/">
                         <a>
                         Nivea
                         <span>50</span>
@@ -442,7 +442,7 @@ const Standard = () => {
                       </Link>   
                     </li>
                     <li className="brand-list">
-                      <Link legacyBehavior href="/shop">
+                      <Link legacyBehavior href="/">
                         <a>
                         Loreal
                         <span>35</span>
@@ -450,7 +450,7 @@ const Standard = () => {
                       </Link> 
                     </li>
                     <li className="brand-list">
-                      <Link legacyBehavior href="/shop">
+                      <Link legacyBehavior href="/">
                         <a>
                         Gillette
                         <span>20</span>
@@ -458,7 +458,7 @@ const Standard = () => {
                       </Link> 
                     </li>
                     <li className="brand-list">
-                      <Link legacyBehavior href="/shop">
+                      <Link legacyBehavior href="/">
                         <a>
                         Garnier
                         <span>18</span>
@@ -466,7 +466,7 @@ const Standard = () => {
                       </Link> 
                     </li>
                     <li className="brand-list">
-                      <Link legacyBehavior href="/shop">
+                      <Link legacyBehavior href="/">
                         <a>
                         Cetaphil
                         <span>06</span>
@@ -474,7 +474,7 @@ const Standard = () => {
                       </Link> 
                     </li>
                     <li className="brand-list">
-                      <Link legacyBehavior href="/shop">
+                      <Link legacyBehavior href="/">
                         <a>
                         Aveeno
                         <span>08</span>

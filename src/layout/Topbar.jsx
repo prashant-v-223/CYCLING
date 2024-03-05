@@ -10,7 +10,7 @@ const Topbar = () => {
             <div className="top-bar-left">
               <p>
                 *New Winter Product 2023{" "}
-                <Link legacyBehavior href="/shop">
+                <Link legacyBehavior href="/">
                   <a>Shop Now*</a>
                 </Link>
               </p>
